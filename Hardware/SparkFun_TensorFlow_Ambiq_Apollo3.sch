@@ -1862,6 +1862,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="535-14095-2-ND"/>
+<attribute name="PROD_ID" value="ANT-14235"/>
 </technology>
 </technologies>
 </device>
@@ -2311,7 +2312,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAMERA-0V7670" prefix="J">
+<deviceset name="CAMERA-OV7670" prefix="J">
 <gates>
 <gate name="G$1" symbol="CAMERA-OV7670-MODULE" x="0" y="0"/>
 </gates>
@@ -23115,7 +23116,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="ambiq" deviceset="0OHM" device="-0402-TIGHT-1/10W-5%" value="0"/>
 <part name="M1" library="ambiq" deviceset="MEMS_MICROPHONE" device="SPW2430HR5H-B" value="MEMS_MIC"/>
 <part name="M2" library="ambiq" deviceset="MEMS_MICROPHONE" device="SPW2430HR5H-B" value="MEMS_MIC"/>
-<part name="J6" library="ambiq" deviceset="CAMERA-0V7670" device=""/>
+<part name="J6" library="ambiq" deviceset="CAMERA-OV7670" device=""/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS_OVERPASTE_INNER"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>

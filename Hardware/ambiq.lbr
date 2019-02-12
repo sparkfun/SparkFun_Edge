@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1553,7 +1553,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <connect gate="G$1" pin="XO32MP" pad="F1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14228"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1766,6 +1768,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="587-2903-2-ND"/>
+<attribute name="PROD_ID" value="NDUC-14237"/>
 <attribute name="VALUE" value="1.0uH"/>
 </technology>
 </technologies>
@@ -1778,6 +1781,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="490-17728-2-ND"/>
+<attribute name="PROD_ID" value="NDUC-14234"/>
 <attribute name="VALUE" value="2.2uH"/>
 </technology>
 </technologies>
@@ -1790,6 +1794,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="445-172420-1-ND"/>
+<attribute name="PROD_ID" value="NDUC-14236"/>
 <attribute name="VALUE" value="2.7nH"/>
 </technology>
 </technologies>
@@ -1802,6 +1807,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="490-6752-1-ND"/>
+<attribute name="PROD_ID" value="NDUC-14238"/>
 <attribute name="VALUE" value="2.0nH"/>
 </technology>
 </technologies>
@@ -1859,6 +1865,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="1276-1056-1-ND"/>
+<attribute name="PROD_ID" value="CAP-14240"/>
 <attribute name="VALUE" value="4.7uF"/>
 </technology>
 </technologies>
@@ -1871,6 +1878,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="1276-1056-1-ND"/>
+<attribute name="PROD_ID" value="CAP-14240"/>
 <attribute name="VALUE" value="4.7uF"/>
 </technology>
 </technologies>
@@ -1985,6 +1993,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="1276-1479-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14242"/>
 <attribute name="VALUE" value="0.47uF"/>
 </technology>
 </technologies>
@@ -1997,6 +2006,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="1276-1479-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14242"/>
 <attribute name="VALUE" value="0.47uF"/>
 </technology>
 </technologies>
@@ -2066,6 +2076,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="1276-1462-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14232"/>
 <attribute name="VALUE" value="2.2uF"/>
 </technology>
 </technologies>
@@ -2099,6 +2110,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-1717-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14243"/>
 <attribute name="VALUE" value="47nF"/>
 </technology>
 </technologies>
@@ -2111,6 +2123,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-1717-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14243"/>
 <attribute name="VALUE" value="47nF"/>
 </technology>
 </technologies>
@@ -2163,6 +2176,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="399-16299-1-ND"/>
+<attribute name="PROD_ID" value="CAP-14231"/>
 <attribute name="VALUE" value="0.5pF"/>
 </technology>
 </technologies>
@@ -2221,6 +2235,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="535-14095-2-ND"/>
+<attribute name="PROD_ID" value="ANT-14235"/>
 </technology>
 </technologies>
 </device>
@@ -2489,6 +2504,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="RES-14241"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
@@ -2501,6 +2517,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-10.0KLRTR-ND"/>
+<attribute name="PROD_ID" value="RES-14241"/>
 <attribute name="VALUE" value="10k"/>
 </technology>
 </technologies>
@@ -2612,6 +2629,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-0.0JRTR-ND"/>
+<attribute name="PROD_ID" value="RES-14244"/>
 <attribute name="VALUE" value="0"/>
 </technology>
 </technologies>
@@ -2707,6 +2725,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="423-1394-2-ND"/>
+<attribute name="PROD_ID" value="COMP-14230"/>
 </technology>
 </technologies>
 </device>
@@ -2746,6 +2765,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="609-4320-2-ND"/>
+<attribute name="PROD_ID" value="CONN-14233"/>
 </technology>
 </technologies>
 </device>
@@ -2772,6 +2792,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="497-14851-2-ND"/>
+<attribute name="PROD_ID" value="IC-14229"/>
 </technology>
 </technologies>
 </device>
@@ -2795,6 +2816,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="AP2127K-1.8TRG1DITR-ND"/>
+<attribute name="PROD_ID" value="VREG-14239"/>
 <attribute name="VALUE" value="1.8V"/>
 </technology>
 </technologies>
@@ -2909,6 +2931,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-1036-2-ND"/>
+<attribute name="PROD_ID" value="CAP-14280"/>
 <attribute name="VALUE" value="1.0nF"/>
 </technology>
 </technologies>
@@ -2942,6 +2965,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="DIGIKEY" value="311-22.0KLRTR-ND"/>
+<attribute name="PROD_ID" value="RES-14281"/>
 <attribute name="VALUE" value="22k"/>
 </technology>
 </technologies>
