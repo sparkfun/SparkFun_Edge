@@ -1,1 +1,1 @@
-# TensorFlow_Ambiq_Apollo3
+# SparkFun Edge
