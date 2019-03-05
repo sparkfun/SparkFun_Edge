@@ -794,82 +794,6 @@
 <text x="-1.524" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.524" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
 </package>
-<package name="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
-<description>&lt;h3&gt;24-Pin FPC/FFC Connector - 0.5mm pitch&lt;/h3&gt;
-&lt;p&gt;Digikey: 609-4320-2-ND&lt;/p&gt;
-&lt;p&gt;&lt;a href=https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10112793.pdf&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-8.75" y1="-2.1" x2="8.75" y2="-2.1" width="0.002540625" layer="51"/>
-<wire x1="8.75" y1="-2.1" x2="8.75" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="8.75" y1="-0.7" x2="7.95" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="7.95" y1="-0.7" x2="7.95" y2="2.1" width="0.002540625" layer="51"/>
-<wire x1="7.95" y1="2.1" x2="-7.95" y2="2.1" width="0.002540625" layer="51"/>
-<wire x1="-7.95" y1="2.1" x2="-7.95" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="-7.95" y1="-0.7" x2="-8.75" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="-8.75" y1="-0.7" x2="-8.75" y2="-2.1" width="0.002540625" layer="51"/>
-<rectangle x1="-5.84" y1="2.1" x2="-5.66" y2="2.8" layer="51"/>
-<smd name="1" x="5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<rectangle x1="-5.34" y1="2.1" x2="-5.16" y2="2.8" layer="51"/>
-<rectangle x1="-4.84" y1="2.1" x2="-4.66" y2="2.8" layer="51"/>
-<rectangle x1="-4.34" y1="2.1" x2="-4.16" y2="2.8" layer="51"/>
-<rectangle x1="-3.84" y1="2.1" x2="-3.66" y2="2.8" layer="51"/>
-<rectangle x1="-3.34" y1="2.1" x2="-3.16" y2="2.8" layer="51"/>
-<rectangle x1="-2.84" y1="2.1" x2="-2.66" y2="2.8" layer="51"/>
-<rectangle x1="-2.34" y1="2.1" x2="-2.16" y2="2.8" layer="51"/>
-<rectangle x1="-1.84" y1="2.1" x2="-1.66" y2="2.8" layer="51"/>
-<rectangle x1="-1.34" y1="2.1" x2="-1.16" y2="2.8" layer="51"/>
-<rectangle x1="-0.84" y1="2.1" x2="-0.66" y2="2.8" layer="51"/>
-<rectangle x1="-0.34" y1="2.1" x2="-0.16" y2="2.8" layer="51"/>
-<rectangle x1="0.16" y1="2.1" x2="0.34" y2="2.8" layer="51"/>
-<rectangle x1="0.66" y1="2.1" x2="0.84" y2="2.8" layer="51"/>
-<rectangle x1="1.16" y1="2.1" x2="1.34" y2="2.8" layer="51"/>
-<rectangle x1="1.66" y1="2.1" x2="1.84" y2="2.8" layer="51"/>
-<rectangle x1="2.16" y1="2.1" x2="2.34" y2="2.8" layer="51"/>
-<rectangle x1="2.66" y1="2.1" x2="2.84" y2="2.8" layer="51"/>
-<rectangle x1="3.16" y1="2.1" x2="3.34" y2="2.8" layer="51"/>
-<rectangle x1="3.66" y1="2.1" x2="3.84" y2="2.8" layer="51"/>
-<rectangle x1="4.16" y1="2.1" x2="4.34" y2="2.8" layer="51"/>
-<rectangle x1="4.66" y1="2.1" x2="4.84" y2="2.8" layer="51"/>
-<rectangle x1="5.16" y1="2.1" x2="5.34" y2="2.8" layer="51"/>
-<rectangle x1="5.66" y1="2.1" x2="5.84" y2="2.8" layer="51"/>
-<rectangle x1="-8.65" y1="0.91" x2="-7.95" y2="1.59" layer="51"/>
-<rectangle x1="7.95" y1="0.91" x2="8.65" y2="1.59" layer="51"/>
-<smd name="MNT1@1" x="-6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
-<smd name="MNT1@0" x="-8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
-<smd name="MNT2@1" x="8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
-<smd name="MNT2@0" x="6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
-<smd name="2" x="5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="3" x="4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="4" x="4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="5" x="3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="6" x="3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="7" x="2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="8" x="2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="13" x="-0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="15" x="-1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="17" x="-2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="18" x="-2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="19" x="-3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="20" x="-3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="21" x="-4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="22" x="-4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="23" x="-5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="24" x="-5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<wire x1="-8.8516" y1="-2.2016" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="-8.0516" y1="-0.5984" x2="-8.8516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="-8.0516" y1="0.4744" x2="-8.0516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="-8.8516" y1="-0.5984" x2="-8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="8.8516" y1="-0.5984" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="8.0516" y1="-0.5984" x2="8.8516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="8.0516" y1="0.4744" x2="8.0516" y2="-0.5984" width="0.2032" layer="21"/>
-<text x="0" y="-2.3368" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
-<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-</package>
 <package name="LGA-12-LISDH12">
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.002540625" layer="51"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.002540625" layer="51"/>
@@ -1130,37 +1054,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="0" y1="-3.048" x2="0" y2="-5.08" width="0.1524" layer="94"/>
 <text x="-5.08" y="5.334" size="1.778" layer="95">&gt;Name</text>
 <text x="0.254" y="-5.334" size="1.778" layer="95" align="top-left">&gt;Value</text>
-</symbol>
-<symbol name="CAMERA-OV7670-MODULE">
-<pin name="AGND" x="-12.7" y="-20.32" length="short"/>
-<pin name="SIO_D" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="AVDD" x="-12.7" y="20.32" length="short"/>
-<pin name="SIO_C" x="12.7" y="20.32" length="short" rot="R180"/>
-<pin name="RESET" x="-12.7" y="2.54" length="short"/>
-<pin name="VSYNC" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="PWDN" x="-12.7" y="-12.7" length="short"/>
-<pin name="HREF" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="DVDD" x="-12.7" y="12.7" length="short"/>
-<pin name="DOVDD" x="-12.7" y="17.78" length="short"/>
-<pin name="Y7" x="12.7" y="-20.32" length="short" rot="R180"/>
-<pin name="XCLK1" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="Y6" x="12.7" y="-17.78" length="short" rot="R180"/>
-<pin name="DGND" x="-12.7" y="-17.78" length="short"/>
-<pin name="Y5" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="PCLK" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="Y4" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="Y0" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="Y3" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="Y1" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="Y2" x="12.7" y="-7.62" length="short" rot="R180"/>
-<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<text x="-10.16" y="23.114" size="1.778" layer="95">&gt;Name</text>
-<text x="-10.16" y="-23.114" size="1.778" layer="96" align="top-left">&gt;Value</text>
-<pin name="MNT1" x="-2.54" y="-22.86" visible="off" length="point"/>
-<pin name="MNT2" x="2.54" y="-22.86" visible="off" length="point"/>
 </symbol>
 <symbol name="LIS2DH12">
 <pin name="VDD_IO" x="-12.7" y="10.16" length="short"/>
@@ -1542,222 +1435,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7UF" prefix="C">
-<description>&lt;h3&gt;4.7µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="-0603-6.3V-(10%)" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08280"/>
-<attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-16V-(+80/-20%)" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10300" constant="no"/>
-<attribute name="VALUE" value="4.7uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-35V-(20%)" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-14106"/>
-<attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-6.3V-(20%)" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1056-1-ND"/>
-<attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-TIGHT-6.3V-(20%)" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1056-1-ND"/>
-<attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0.47UF" prefix="C">
-<description>&lt;h3&gt;0.47uF ceramic capacitor&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402-6.3V-(10%)" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1479-2-ND"/>
-<attribute name="VALUE" value="0.47uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-TIGHT-6.3V-10%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1479-2-ND"/>
-<attribute name="VALUE" value="0.47uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2.2UF" prefix="C">
-<description>&lt;h3&gt;2.2µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-10V-20%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07888" constant="no"/>
-<attribute name="VALUE" value="2.2uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-(+80/-20%)" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11624"/>
-<attribute name="VALUE" value="2.2uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-50V-10%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10009"/>
-<attribute name="VALUE" value="2.2uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-25V-10%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1462-2-ND"/>
-<attribute name="VALUE" value="2.2uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-TIGHT-25V-10%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="1276-1462-2-ND"/>
-<attribute name="VALUE" value="2.2uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="47NF" prefix="C" uservalue="yes">
-<description>&lt;h3&gt;47nF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-25V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08605"/>
-<attribute name="VALUE" value="47nF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-25V-10%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="311-1717-2-ND"/>
-<attribute name="VALUE" value="47nF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-TIGHT-25V-10%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="311-1717-2-ND"/>
-<attribute name="VALUE" value="47nF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DNP-CAP" prefix="C">
 <description>&lt;h3&gt;0.18µF ceramic capacitor&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -1784,27 +1461,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="DNP"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0.5PF" prefix="C">
-<description>&lt;h3&gt;0.5pF ceramic capacitor&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402-0.5PF-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="399-16299-1-ND"/>
-<attribute name="VALUE" value="0.5pF"/>
 </technology>
 </technologies>
 </device>
@@ -2312,45 +1968,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAMERA-OV7670" prefix="J">
-<gates>
-<gate name="G$1" symbol="CAMERA-OV7670-MODULE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
-<connects>
-<connect gate="G$1" pin="AGND" pad="2"/>
-<connect gate="G$1" pin="AVDD" pad="4"/>
-<connect gate="G$1" pin="DGND" pad="15"/>
-<connect gate="G$1" pin="DOVDD" pad="11"/>
-<connect gate="G$1" pin="DVDD" pad="10"/>
-<connect gate="G$1" pin="HREF" pad="9"/>
-<connect gate="G$1" pin="MNT1" pad="MNT1@0 MNT1@1"/>
-<connect gate="G$1" pin="MNT2" pad="MNT2@0 MNT2@1"/>
-<connect gate="G$1" pin="PCLK" pad="17"/>
-<connect gate="G$1" pin="PWDN" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="6"/>
-<connect gate="G$1" pin="SIO_C" pad="5"/>
-<connect gate="G$1" pin="SIO_D" pad="3"/>
-<connect gate="G$1" pin="VSYNC" pad="7"/>
-<connect gate="G$1" pin="XCLK1" pad="13"/>
-<connect gate="G$1" pin="Y0" pad="19"/>
-<connect gate="G$1" pin="Y1" pad="21"/>
-<connect gate="G$1" pin="Y2" pad="22"/>
-<connect gate="G$1" pin="Y3" pad="20"/>
-<connect gate="G$1" pin="Y4" pad="18"/>
-<connect gate="G$1" pin="Y5" pad="16"/>
-<connect gate="G$1" pin="Y6" pad="14"/>
-<connect gate="G$1" pin="Y7" pad="12"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="609-4320-2-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LIS2DH12" prefix="U">
 <gates>
 <gate name="G$1" symbol="LIS2DH12" x="0" y="0"/>
@@ -2396,39 +2013,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="DIGIKEY" value="AP2127K-1.8TRG1DITR-ND"/>
 <attribute name="VALUE" value="1.8V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.0NF/1000PF" prefix="C" uservalue="yes">
-<description>&lt;h3&gt;1nF/1,000pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07886" constant="no"/>
-<attribute name="VALUE" value="1nF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-50V-10%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="311-1036-2-ND"/>
-<attribute name="VALUE" value="1.0nF"/>
 </technology>
 </technologies>
 </device>
@@ -18574,6 +18158,82 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
+<description>&lt;h3&gt;24-Pin FPC/FFC Connector - 0.5mm pitch&lt;/h3&gt;
+&lt;p&gt;Digikey: 609-4320-2-ND&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10112793.pdf&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-8.75" y1="-2.1" x2="8.75" y2="-2.1" width="0.002540625" layer="51"/>
+<wire x1="8.75" y1="-2.1" x2="8.75" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="8.75" y1="-0.7" x2="7.95" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="7.95" y1="-0.7" x2="7.95" y2="2.1" width="0.002540625" layer="51"/>
+<wire x1="7.95" y1="2.1" x2="-7.95" y2="2.1" width="0.002540625" layer="51"/>
+<wire x1="-7.95" y1="2.1" x2="-7.95" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="-7.95" y1="-0.7" x2="-8.75" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="-8.75" y1="-0.7" x2="-8.75" y2="-2.1" width="0.002540625" layer="51"/>
+<rectangle x1="-5.84" y1="2.1" x2="-5.66" y2="2.8" layer="51"/>
+<smd name="1" x="5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<rectangle x1="-5.34" y1="2.1" x2="-5.16" y2="2.8" layer="51"/>
+<rectangle x1="-4.84" y1="2.1" x2="-4.66" y2="2.8" layer="51"/>
+<rectangle x1="-4.34" y1="2.1" x2="-4.16" y2="2.8" layer="51"/>
+<rectangle x1="-3.84" y1="2.1" x2="-3.66" y2="2.8" layer="51"/>
+<rectangle x1="-3.34" y1="2.1" x2="-3.16" y2="2.8" layer="51"/>
+<rectangle x1="-2.84" y1="2.1" x2="-2.66" y2="2.8" layer="51"/>
+<rectangle x1="-2.34" y1="2.1" x2="-2.16" y2="2.8" layer="51"/>
+<rectangle x1="-1.84" y1="2.1" x2="-1.66" y2="2.8" layer="51"/>
+<rectangle x1="-1.34" y1="2.1" x2="-1.16" y2="2.8" layer="51"/>
+<rectangle x1="-0.84" y1="2.1" x2="-0.66" y2="2.8" layer="51"/>
+<rectangle x1="-0.34" y1="2.1" x2="-0.16" y2="2.8" layer="51"/>
+<rectangle x1="0.16" y1="2.1" x2="0.34" y2="2.8" layer="51"/>
+<rectangle x1="0.66" y1="2.1" x2="0.84" y2="2.8" layer="51"/>
+<rectangle x1="1.16" y1="2.1" x2="1.34" y2="2.8" layer="51"/>
+<rectangle x1="1.66" y1="2.1" x2="1.84" y2="2.8" layer="51"/>
+<rectangle x1="2.16" y1="2.1" x2="2.34" y2="2.8" layer="51"/>
+<rectangle x1="2.66" y1="2.1" x2="2.84" y2="2.8" layer="51"/>
+<rectangle x1="3.16" y1="2.1" x2="3.34" y2="2.8" layer="51"/>
+<rectangle x1="3.66" y1="2.1" x2="3.84" y2="2.8" layer="51"/>
+<rectangle x1="4.16" y1="2.1" x2="4.34" y2="2.8" layer="51"/>
+<rectangle x1="4.66" y1="2.1" x2="4.84" y2="2.8" layer="51"/>
+<rectangle x1="5.16" y1="2.1" x2="5.34" y2="2.8" layer="51"/>
+<rectangle x1="5.66" y1="2.1" x2="5.84" y2="2.8" layer="51"/>
+<rectangle x1="-8.65" y1="0.91" x2="-7.95" y2="1.59" layer="51"/>
+<rectangle x1="7.95" y1="0.91" x2="8.65" y2="1.59" layer="51"/>
+<smd name="MNT1@1" x="-6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
+<smd name="MNT1@0" x="-8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
+<smd name="MNT2@1" x="8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
+<smd name="MNT2@0" x="6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
+<smd name="2" x="5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="3" x="4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="4" x="4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="5" x="3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="6" x="3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="7" x="2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="8" x="2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="13" x="-0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="15" x="-1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="17" x="-2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="18" x="-2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="19" x="-3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="20" x="-3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="21" x="-4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="22" x="-4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="23" x="-5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="24" x="-5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<wire x1="-8.8516" y1="-2.2016" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="-8.0516" y1="-0.5984" x2="-8.8516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="-8.0516" y1="0.4744" x2="-8.0516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="-8.8516" y1="-0.5984" x2="-8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="8.8516" y1="-0.5984" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="8.0516" y1="-0.5984" x2="8.8516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="8.0516" y1="0.4744" x2="8.0516" y2="-0.5984" width="0.2032" layer="21"/>
+<text x="0" y="-2.3368" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
+<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_SERIAL_PROGRAM">
@@ -18676,6 +18336,37 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="CAMERA-OV7670-MODULE">
+<pin name="AGND" x="-12.7" y="-20.32" length="short"/>
+<pin name="SIO_D" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="AVDD" x="-12.7" y="20.32" length="short"/>
+<pin name="SIO_C" x="12.7" y="20.32" length="short" rot="R180"/>
+<pin name="RESET" x="-12.7" y="2.54" length="short"/>
+<pin name="VSYNC" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="PWDN" x="-12.7" y="-12.7" length="short"/>
+<pin name="HREF" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="DVDD" x="-12.7" y="12.7" length="short"/>
+<pin name="DOVDD" x="-12.7" y="17.78" length="short"/>
+<pin name="Y7" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="XCLK1" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="Y6" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="DGND" x="-12.7" y="-17.78" length="short"/>
+<pin name="Y5" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PCLK" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="Y4" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="Y0" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="Y3" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="Y1" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="Y2" x="12.7" y="-7.62" length="short" rot="R180"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="23.114" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-23.114" size="1.778" layer="96" align="top-left">&gt;Value</text>
+<pin name="MNT1" x="-2.54" y="-22.86" visible="off" length="point"/>
+<pin name="MNT2" x="2.54" y="-22.86" visible="off" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19173,6 +18864,46 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAMERA-OV7670" prefix="J">
+<gates>
+<gate name="G$1" symbol="CAMERA-OV7670-MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
+<connects>
+<connect gate="G$1" pin="AGND" pad="2"/>
+<connect gate="G$1" pin="AVDD" pad="4"/>
+<connect gate="G$1" pin="DGND" pad="15"/>
+<connect gate="G$1" pin="DOVDD" pad="11"/>
+<connect gate="G$1" pin="DVDD" pad="10"/>
+<connect gate="G$1" pin="HREF" pad="9"/>
+<connect gate="G$1" pin="MNT1" pad="MNT1@0 MNT1@1"/>
+<connect gate="G$1" pin="MNT2" pad="MNT2@0 MNT2@1"/>
+<connect gate="G$1" pin="PCLK" pad="17"/>
+<connect gate="G$1" pin="PWDN" pad="8"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="SIO_C" pad="5"/>
+<connect gate="G$1" pin="SIO_D" pad="3"/>
+<connect gate="G$1" pin="VSYNC" pad="7"/>
+<connect gate="G$1" pin="XCLK1" pad="13"/>
+<connect gate="G$1" pin="Y0" pad="19"/>
+<connect gate="G$1" pin="Y1" pad="21"/>
+<connect gate="G$1" pin="Y2" pad="22"/>
+<connect gate="G$1" pin="Y3" pad="20"/>
+<connect gate="G$1" pin="Y4" pad="18"/>
+<connect gate="G$1" pin="Y5" pad="16"/>
+<connect gate="G$1" pin="Y6" pad="14"/>
+<connect gate="G$1" pin="Y7" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="609-4320-2-ND"/>
+<attribute name="PROD_ID" value="CONN-14233"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -20701,6 +20432,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
 <wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
 </package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+</package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -20812,6 +20576,207 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="CAP-14106"/>
 <attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-6.3V-20%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14240"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="470NF" prefix="C">
+<description>&lt;h3&gt;0.47uF/470nF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-16V-10%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09041"/>
+<attribute name="VALUE" value="470nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-10V-10%-X5R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13216"/>
+<attribute name="VALUE" value="470nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-6.3V-10%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14242"/>
+<attribute name="VALUE" value="0.47uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.2UF" prefix="C">
+<description>&lt;h3&gt;2.2µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-10V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07888" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-(+80/-20%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11624"/>
+<attribute name="VALUE" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-50V-10%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10009"/>
+<attribute name="VALUE" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-10V-10%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14232"/>
+<attribute name="VALUE" value="2.2uF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.5PF" prefix="C">
+<description>&lt;h3&gt;0.5pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402_TIGHT-20V-PM0.05PF-NP0" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14240"/>
+<attribute name="VALUE" value="0.5pF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="47NF" prefix="C" uservalue="yes">
+<description>&lt;h3&gt;47nF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-25V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08605"/>
+<attribute name="VALUE" value="47nF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-25V-10%-X7R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14243"/>
+<attribute name="VALUE" value="47nF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.0NF/1000PF" prefix="C" uservalue="yes">
+<description>&lt;h3&gt;1nF/1,000pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07886" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-50V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14280"/>
+<attribute name="VALUE" value="1.0nF"/>
 </technology>
 </technologies>
 </device>
@@ -22940,7 +22905,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L1" library="ambiq" deviceset="INDUCTOR" device="-0805-2.2UH" value="2.2uH"/>
 <part name="L2" library="ambiq" deviceset="INDUCTOR" device="-0805-1.0UH" value="1.0uH"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C2" library="ambiq" deviceset="4.7UF" device="-0402-TIGHT-6.3V-(20%)" value="4.7uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="C4" library="ambiq" deviceset="1.0UF" device="-0402-TIGHT-16V-10%" value="1.0uF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22948,10 +22913,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="ambiq" deviceset="10KOHM" device="-0402-TIGHT-1/10W-1%" value="10k"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="ambiq" deviceset="10KOHM" device="-0402-TIGHT-1/10W-1%" value="10k"/>
-<part name="C1" library="ambiq" deviceset="0.47UF" device="-0402-TIGHT-6.3V-10%" value="0.47uF"/>
-<part name="C3" library="ambiq" deviceset="2.2UF" device="-0402-TIGHT-25V-10%" value="2.2uF"/>
-<part name="C5" library="ambiq" deviceset="2.2UF" device="-0402-TIGHT-25V-10%" value="2.2uF"/>
-<part name="C8" library="ambiq" deviceset="2.2UF" device="-0402-TIGHT-25V-10%" value="2.2uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="470NF" device="-0402_TIGHT-6.3V-10%-X5R" value="0.47uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22959,8 +22924,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C13" library="ambiq" deviceset="1.0UF" device="-0402-TIGHT-16V-10%" value="1.0uF"/>
 <part name="C14" library="ambiq" deviceset="1.0UF" device="-0402-TIGHT-16V-10%" value="1.0uF"/>
 <part name="C15" library="ambiq" deviceset="1.0UF" device="-0402-TIGHT-16V-10%" value="1.0uF"/>
-<part name="C11" library="ambiq" deviceset="47NF" device="-0402-TIGHT-25V-10%" value="47nF"/>
-<part name="C16" library="ambiq" deviceset="2.2UF" device="-0402-TIGHT-25V-10%" value="2.2uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="47NF" device="-0402_TIGHT-25V-10%-X7R" value="47nF"/>
+<part name="C16" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22969,7 +22934,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C17" library="ambiq" deviceset="DNP-CAP" device="-0402-TIGHT" value="DNP"/>
 <part name="L3" library="ambiq" deviceset="INDUCTOR" device="-0402-2.7NH" value="2.7nH"/>
-<part name="C18" library="ambiq" deviceset="0.5PF" device="-0402-0.5PF-1%" value="0.5pF"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="0.5PF" device="-0402_TIGHT-20V-PM0.05PF-NP0" value="0.5pF"/>
 <part name="L4" library="ambiq" deviceset="INDUCTOR" device="-0402-2.0NH" value="2.0nH"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22980,7 +22945,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="ambiq" deviceset="0OHM" device="-0402-TIGHT-1/10W-5%" value="0"/>
 <part name="M1" library="ambiq" deviceset="MEMS_MICROPHONE" device="SPW2430HR5H-B" value="MEMS_MIC"/>
 <part name="M2" library="ambiq" deviceset="MEMS_MICROPHONE" device="SPW2430HR5H-B" value="MEMS_MIC"/>
-<part name="J6" library="ambiq" deviceset="CAMERA-OV7670" device=""/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CAMERA-OV7670" device=""/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS_OVERPASTE_INNER"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
@@ -23102,7 +23067,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY39" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
-<part name="C28" library="ambiq" deviceset="1.0NF/1000PF" device="-0402-50V-10%" value="1.0nF"/>
+<part name="C28" library="SparkFun-Capacitors" deviceset="1.0NF/1000PF" device="-0402_TIGHT-50V-10%" value="1.0nF"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>

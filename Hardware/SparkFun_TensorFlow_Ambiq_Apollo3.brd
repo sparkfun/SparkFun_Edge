@@ -1463,6 +1463,82 @@ Used as a test point connection for pogo pins or other debugging tools.
 &lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
+<description>&lt;h3&gt;24-Pin FPC/FFC Connector - 0.5mm pitch&lt;/h3&gt;
+&lt;p&gt;Digikey: 609-4320-2-ND&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10112793.pdf&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-8.75" y1="-2.1" x2="8.75" y2="-2.1" width="0.002540625" layer="51"/>
+<wire x1="8.75" y1="-2.1" x2="8.75" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="8.75" y1="-0.7" x2="7.95" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="7.95" y1="-0.7" x2="7.95" y2="2.1" width="0.002540625" layer="51"/>
+<wire x1="7.95" y1="2.1" x2="-7.95" y2="2.1" width="0.002540625" layer="51"/>
+<wire x1="-7.95" y1="2.1" x2="-7.95" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="-7.95" y1="-0.7" x2="-8.75" y2="-0.7" width="0.002540625" layer="51"/>
+<wire x1="-8.75" y1="-0.7" x2="-8.75" y2="-2.1" width="0.002540625" layer="51"/>
+<rectangle x1="-5.84" y1="2.1" x2="-5.66" y2="2.8" layer="51"/>
+<smd name="1" x="5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<rectangle x1="-5.34" y1="2.1" x2="-5.16" y2="2.8" layer="51"/>
+<rectangle x1="-4.84" y1="2.1" x2="-4.66" y2="2.8" layer="51"/>
+<rectangle x1="-4.34" y1="2.1" x2="-4.16" y2="2.8" layer="51"/>
+<rectangle x1="-3.84" y1="2.1" x2="-3.66" y2="2.8" layer="51"/>
+<rectangle x1="-3.34" y1="2.1" x2="-3.16" y2="2.8" layer="51"/>
+<rectangle x1="-2.84" y1="2.1" x2="-2.66" y2="2.8" layer="51"/>
+<rectangle x1="-2.34" y1="2.1" x2="-2.16" y2="2.8" layer="51"/>
+<rectangle x1="-1.84" y1="2.1" x2="-1.66" y2="2.8" layer="51"/>
+<rectangle x1="-1.34" y1="2.1" x2="-1.16" y2="2.8" layer="51"/>
+<rectangle x1="-0.84" y1="2.1" x2="-0.66" y2="2.8" layer="51"/>
+<rectangle x1="-0.34" y1="2.1" x2="-0.16" y2="2.8" layer="51"/>
+<rectangle x1="0.16" y1="2.1" x2="0.34" y2="2.8" layer="51"/>
+<rectangle x1="0.66" y1="2.1" x2="0.84" y2="2.8" layer="51"/>
+<rectangle x1="1.16" y1="2.1" x2="1.34" y2="2.8" layer="51"/>
+<rectangle x1="1.66" y1="2.1" x2="1.84" y2="2.8" layer="51"/>
+<rectangle x1="2.16" y1="2.1" x2="2.34" y2="2.8" layer="51"/>
+<rectangle x1="2.66" y1="2.1" x2="2.84" y2="2.8" layer="51"/>
+<rectangle x1="3.16" y1="2.1" x2="3.34" y2="2.8" layer="51"/>
+<rectangle x1="3.66" y1="2.1" x2="3.84" y2="2.8" layer="51"/>
+<rectangle x1="4.16" y1="2.1" x2="4.34" y2="2.8" layer="51"/>
+<rectangle x1="4.66" y1="2.1" x2="4.84" y2="2.8" layer="51"/>
+<rectangle x1="5.16" y1="2.1" x2="5.34" y2="2.8" layer="51"/>
+<rectangle x1="5.66" y1="2.1" x2="5.84" y2="2.8" layer="51"/>
+<rectangle x1="-8.65" y1="0.91" x2="-7.95" y2="1.59" layer="51"/>
+<rectangle x1="7.95" y1="0.91" x2="8.65" y2="1.59" layer="51"/>
+<smd name="MNT1@1" x="-6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
+<smd name="MNT1@0" x="-8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
+<smd name="MNT2@1" x="8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
+<smd name="MNT2@0" x="6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
+<smd name="2" x="5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="3" x="4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="4" x="4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="5" x="3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="6" x="3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="7" x="2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="8" x="2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="13" x="-0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="15" x="-1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="17" x="-2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="18" x="-2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="19" x="-3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="20" x="-3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="21" x="-4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="22" x="-4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="23" x="-5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<smd name="24" x="-5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
+<wire x1="-8.8516" y1="-2.2016" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="-8.0516" y1="-0.5984" x2="-8.8516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="-8.0516" y1="0.4744" x2="-8.0516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="-8.8516" y1="-0.5984" x2="-8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="8.8516" y1="-0.5984" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
+<wire x1="8.0516" y1="-0.5984" x2="8.8516" y2="-0.5984" width="0.2032" layer="21"/>
+<wire x1="8.0516" y1="0.4744" x2="8.0516" y2="-0.5984" width="0.2032" layer="21"/>
+<text x="0" y="-2.3368" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
+<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+</package>
 </packages>
 </library>
 <library name="ambiq">
@@ -1734,82 +1810,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <circle x="0" y="1.9824" radius="0.225" width="0" layer="21"/>
 <text x="-1.524" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.524" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
-</package>
-<package name="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
-<description>&lt;h3&gt;24-Pin FPC/FFC Connector - 0.5mm pitch&lt;/h3&gt;
-&lt;p&gt;Digikey: 609-4320-2-ND&lt;/p&gt;
-&lt;p&gt;&lt;a href=https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10112793.pdf&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-8.75" y1="-2.1" x2="8.75" y2="-2.1" width="0.002540625" layer="51"/>
-<wire x1="8.75" y1="-2.1" x2="8.75" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="8.75" y1="-0.7" x2="7.95" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="7.95" y1="-0.7" x2="7.95" y2="2.1" width="0.002540625" layer="51"/>
-<wire x1="7.95" y1="2.1" x2="-7.95" y2="2.1" width="0.002540625" layer="51"/>
-<wire x1="-7.95" y1="2.1" x2="-7.95" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="-7.95" y1="-0.7" x2="-8.75" y2="-0.7" width="0.002540625" layer="51"/>
-<wire x1="-8.75" y1="-0.7" x2="-8.75" y2="-2.1" width="0.002540625" layer="51"/>
-<rectangle x1="-5.84" y1="2.1" x2="-5.66" y2="2.8" layer="51"/>
-<smd name="1" x="5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<rectangle x1="-5.34" y1="2.1" x2="-5.16" y2="2.8" layer="51"/>
-<rectangle x1="-4.84" y1="2.1" x2="-4.66" y2="2.8" layer="51"/>
-<rectangle x1="-4.34" y1="2.1" x2="-4.16" y2="2.8" layer="51"/>
-<rectangle x1="-3.84" y1="2.1" x2="-3.66" y2="2.8" layer="51"/>
-<rectangle x1="-3.34" y1="2.1" x2="-3.16" y2="2.8" layer="51"/>
-<rectangle x1="-2.84" y1="2.1" x2="-2.66" y2="2.8" layer="51"/>
-<rectangle x1="-2.34" y1="2.1" x2="-2.16" y2="2.8" layer="51"/>
-<rectangle x1="-1.84" y1="2.1" x2="-1.66" y2="2.8" layer="51"/>
-<rectangle x1="-1.34" y1="2.1" x2="-1.16" y2="2.8" layer="51"/>
-<rectangle x1="-0.84" y1="2.1" x2="-0.66" y2="2.8" layer="51"/>
-<rectangle x1="-0.34" y1="2.1" x2="-0.16" y2="2.8" layer="51"/>
-<rectangle x1="0.16" y1="2.1" x2="0.34" y2="2.8" layer="51"/>
-<rectangle x1="0.66" y1="2.1" x2="0.84" y2="2.8" layer="51"/>
-<rectangle x1="1.16" y1="2.1" x2="1.34" y2="2.8" layer="51"/>
-<rectangle x1="1.66" y1="2.1" x2="1.84" y2="2.8" layer="51"/>
-<rectangle x1="2.16" y1="2.1" x2="2.34" y2="2.8" layer="51"/>
-<rectangle x1="2.66" y1="2.1" x2="2.84" y2="2.8" layer="51"/>
-<rectangle x1="3.16" y1="2.1" x2="3.34" y2="2.8" layer="51"/>
-<rectangle x1="3.66" y1="2.1" x2="3.84" y2="2.8" layer="51"/>
-<rectangle x1="4.16" y1="2.1" x2="4.34" y2="2.8" layer="51"/>
-<rectangle x1="4.66" y1="2.1" x2="4.84" y2="2.8" layer="51"/>
-<rectangle x1="5.16" y1="2.1" x2="5.34" y2="2.8" layer="51"/>
-<rectangle x1="5.66" y1="2.1" x2="5.84" y2="2.8" layer="51"/>
-<rectangle x1="-8.65" y1="0.91" x2="-7.95" y2="1.59" layer="51"/>
-<rectangle x1="7.95" y1="0.91" x2="8.65" y2="1.59" layer="51"/>
-<smd name="MNT1@1" x="-6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
-<smd name="MNT1@0" x="-8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
-<smd name="MNT2@1" x="8.15" y="1.5" dx="1.4" dy="1.6" layer="1"/>
-<smd name="MNT2@0" x="6.825" y="1.15" dx="1.25" dy="2.3" layer="1"/>
-<smd name="2" x="5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="3" x="4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="4" x="4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="5" x="3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="6" x="3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="7" x="2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="8" x="2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="13" x="-0.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="15" x="-1.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="17" x="-2.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="18" x="-2.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="19" x="-3.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="20" x="-3.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="21" x="-4.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="22" x="-4.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="23" x="-5.25" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<smd name="24" x="-5.75" y="2.4" dx="0.3" dy="1.4" layer="1"/>
-<wire x1="-8.8516" y1="-2.2016" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="-8.0516" y1="-0.5984" x2="-8.8516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="-8.0516" y1="0.4744" x2="-8.0516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="-8.8516" y1="-0.5984" x2="-8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="8.8516" y1="-0.5984" x2="8.8516" y2="-2.2016" width="0.2032" layer="21"/>
-<wire x1="8.0516" y1="-0.5984" x2="8.8516" y2="-0.5984" width="0.2032" layer="21"/>
-<wire x1="8.0516" y1="0.4744" x2="8.0516" y2="-0.5984" width="0.2032" layer="21"/>
-<text x="0" y="-2.3368" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
-<text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
 </package>
 <package name="LGA-12-LISDH12">
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.002540625" layer="51"/>
@@ -2105,6 +2105,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 </packages>
 </library>
@@ -6318,9 +6334,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.2" y="14.711" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="25.1936" y="14.8102" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="ambiq" package="0402-TIGHT" value="4.7uF" x="23.25" y="15.7" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="1276-1056-1-ND" x="23.25" y="15.7" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="C2" library="SparkFun-Capacitors" package="0402-TIGHT" value="4.7uF" x="23.25" y="15.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.812" y="15.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14240" x="23.25" y="15.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.0066" y="13.7386" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="C4" library="ambiq" package="0402-TIGHT" value="1.0uF" x="27.4" y="17.5" smashed="yes" rot="MR270">
@@ -6338,28 +6354,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32" y="33.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="32.9162" y="33.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C1" library="ambiq" package="0402-TIGHT" value="0.47uF" x="23.2746" y="20.5" smashed="yes" rot="MR180">
-<attribute name="DIGIKEY" value="1276-1479-2-ND" x="23.2746" y="20.5" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.47uF" x="23.2746" y="20.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="23.2746" y="19.738" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14242" x="23.2746" y="20.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" value="0.47uF" x="23.2746" y="21.262" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="C3" library="ambiq" package="0402-TIGHT" value="2.2uF" x="23.273" y="19.35" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="1276-1462-2-ND" x="23.273" y="19.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C3" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="23.273" y="19.35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.273" y="20.112" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" value="2.2uF" x="23.273" y="19.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PROD_ID" value="CAP-14232" x="23.273" y="19.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="23.273" y="18.788" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<attribute name="VALUE" value="2.2uF" x="23.273" y="19.35" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C5" library="ambiq" package="0402-TIGHT" value="2.2uF" x="25.25" y="17.7746" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY" value="1276-1462-2-ND" x="25.25" y="17.7746" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C5" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="25.25" y="17.7746" smashed="yes" rot="MR270">
 <attribute name="NAME" x="24.488" y="17.7746" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" value="2.2uF" x="25.25" y="17.7746" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PROD_ID" value="CAP-14232" x="25.25" y="17.7746" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="25.812" y="17.7746" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+<attribute name="VALUE" value="2.2uF" x="25.25" y="17.7746" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C8" library="ambiq" package="0402-TIGHT" value="2.2uF" x="26.3" y="17.5" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY" value="1276-1462-2-ND" x="26.3" y="17.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C8" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="26.3" y="17.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="25.538" y="17.5" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="VALUE" value="2.2uF" x="26.3" y="17.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PROD_ID" value="CAP-14232" x="26.3" y="17.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="26.862" y="17.5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+<attribute name="VALUE" value="2.2uF" x="26.3" y="17.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C12" library="ambiq" package="0402-TIGHT" value="1.0uF" x="23.7" y="18.25" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.7" y="19.012" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
@@ -6383,16 +6399,16 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-12417" x="28.3354" y="20.1" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
 <attribute name="VALUE" x="27.5734" y="20.1" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
-<element name="C11" library="ambiq" package="0402-TIGHT" value="47nF" x="28.9" y="18.6" smashed="yes" rot="MR180">
-<attribute name="DIGIKEY" value="311-1717-2-ND" x="28.9" y="18.6" size="1.778" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
+<element name="C11" library="SparkFun-Capacitors" package="0402-TIGHT" value="47nF" x="28.9" y="18.6" smashed="yes" rot="MR180">
 <attribute name="NAME" x="28.9" y="17.838" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14243" x="28.9" y="18.6" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="28.9" y="19.362" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="C16" library="ambiq" package="0402-TIGHT" value="2.2uF" x="23.7" y="17.2" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="1276-1462-2-ND" x="23.7" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C16" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="23.7" y="17.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.7" y="17.962" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" value="2.2uF" x="23.7" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PROD_ID" value="CAP-14232" x="23.7" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="23.7" y="16.638" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<attribute name="VALUE" value="2.2uF" x="23.7" y="17.2" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C17" library="ambiq" package="0402-TIGHT" value="DNP" x="30.1" y="17.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.662" y="17.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -6403,9 +6419,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.3614" y="18.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="31.3512" y="18.4014" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C18" library="ambiq" package="0402-TIGHT" value="0.5pF" x="32.6314" y="17.5" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="399-16299-1-ND" x="32.6314" y="17.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="C18" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.5pF" x="32.6314" y="17.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.1934" y="17.5" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14240" x="32.6314" y="17.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="32.6396" y="16.6008" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="L4" library="ambiq" package="0402-TIGHT" value="2.0nH" x="33.9014" y="18" smashed="yes">
@@ -6436,9 +6452,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.476" y="3" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="8.001" y="1.0922" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
-<element name="J6" library="ambiq" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF" value="CAMERA-OV7670" x="20" y="37" smashed="yes" rot="R180">
+<element name="J6" library="SparkFun-Connectors" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF" value="CAMERA-OV7670" x="20" y="37" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="609-4320-2-ND" x="20" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20" y="39.3368" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="CONN-14233" x="20" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20" y="37" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
 </element>
 <element name="BT1" library="SparkFun-Batteries" package="BATTCON_20MM_4LEGS_OVERPASTE_INNER" value="" x="10.5" y="20" smashed="yes" rot="MR90">
@@ -6718,9 +6735,9 @@ design rules under a new name.</description>
 <element name="U$22" library="buzzard_labels" package="MIC11" value="" x="5.9944" y="0.7366" smashed="yes"/>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="31.75" y="35.56" smashed="yes" rot="MR0"/>
 <element name="TP2" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="34.29" y="35.56" smashed="yes" rot="MR0"/>
-<element name="C28" library="ambiq" package="0402-TIGHT" value="1.0nF" x="1.8" y="31" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="311-1036-2-ND" x="1.8" y="31" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C28" library="SparkFun-Capacitors" package="0402-TIGHT" value="1.0nF" x="1.8" y="31" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.238" y="31" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14280" x="1.8" y="31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1.0nF" x="2.362" y="31" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="TP3" library="SparkFun-Connectors" package="PAD.03X.05" value="TEST-POINT3X5" x="38.1" y="30.226" smashed="yes" rot="MR0"/>
