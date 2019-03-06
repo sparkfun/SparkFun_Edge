@@ -29,7 +29,7 @@ Product Versions
 
 Version History
 ---------------
-* [v10](URL for tag specific to this version) - Tag URL for v10 to be set after commits
+* [v10](https://github.com/sparkfun/SparkFun_Edge/tree/v10) - Initial HW release
 
 
 License Information
