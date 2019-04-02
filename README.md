@@ -26,7 +26,7 @@ Documentation
 
 Product Versions
 ----------------
-* [DEV-15170] (https://www.sparkfun.com/products/15170)- SparkFun Edge
+* [DEV-15170](https://www.sparkfun.com/products/15170)- SparkFun Edge
 
 Version History
 ---------------
