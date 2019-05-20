@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23012,7 +23012,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-TALL-REDUNDANT" value=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402_TIGHT-1/10W-1%" value="10k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402_TIGHT-1/10W-1%" value="100k"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
@@ -23072,7 +23072,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP5" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="TP7" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
-<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-BAS16J" value="250mA/100V"/>
+<part name="D7" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-BAS16J" value="DNP"/>
 </parts>
 <sheets>
 <sheet>
