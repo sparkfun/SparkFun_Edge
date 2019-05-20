@@ -21,11 +21,12 @@ Repository Contents
 Documentation
 --------------
 * **[Board Support Package (BSP)](https://github.com/sparkfun/SparkFun_Edge_BSP)** - Ambiq SDK Board Support Package for the SparkFun Edge.
-* **[Software Development Kit (SDK) Setup Guide](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Basic hookup guide for the SparkFun Edge.
+* **[Edge Board Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-edge-hookup-guide)** - Basic hookup guide for the SparkFun Edge.
+* **[Software Development Kit (SDK) Setup Guide](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Software Development Kit for working with the SparkFun Edge.
 
 Product Versions
 ----------------
-* [DEV-15170] (https://www.sparkfun.com/products/15170)- SparkFun Edge
+* [DEV-15170](https://www.sparkfun.com/products/15170)- SparkFun Edge
 
 Version History
 ---------------
