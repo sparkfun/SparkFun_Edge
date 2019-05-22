@@ -6761,7 +6761,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$5" library="buzzard_labels (9)" package="#453" value="" x="30.48" y="4.826" smashed="yes" rot="R90"/>
 <element name="U$6" library="buzzard_labels (9)" package="#A312" value="" x="27.94" y="4.826" smashed="yes" rot="R90"/>
 <element name="U$7" library="buzzard_labels (9)" package="A161" value="" x="25.4" y="4.826" smashed="yes" rot="R90"/>
-<element name="U$8" library="buzzard_labels (9)" package="MIC10" value="" x="6.096" y="0.762" smashed="yes"/>
+<element name="U$8" library="buzzard_labels (9)" package="MIC10" value="" x="6" y="0.8" smashed="yes"/>
 <element name="U$10" library="buzzard_labels (9)" package="A161" value="" x="25.4" y="4.826" smashed="yes" rot="MR90"/>
 <element name="U$11" library="buzzard_labels (9)" package="#A312" value="" x="27.94" y="4.826" smashed="yes" rot="MR90"/>
 <element name="U$12" library="buzzard_labels (9)" package="#453" value="" x="30.48" y="4.826" smashed="yes" rot="MR90"/>
