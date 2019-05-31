@@ -1,7 +1,7 @@
 SparkFun Edge
 ========================================
 
-![SparkFun Edge](https://cdn.sparkfun.com/assets/parts/1/3/5/6/7/15170-SparkFun_Edge_Development_Board_-_Apollo3-01.jpg)
+![SparkFun Edge](https://cdn.sparkfun.com//assets/parts/1/3/5/6/7/15170-SparkFun_Edge_Development_Board_-_Apollo3_Blue-01a.jpg)
 
 [*SparkFun Edge (DEV-15170)*](https://www.sparkfun.com/products/15170)
 
