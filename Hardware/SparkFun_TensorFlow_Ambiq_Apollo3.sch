@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="22" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="22" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -16743,37 +16743,6 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
-<symbol name="CAMERA-OV7670-MODULE">
-<pin name="AGND" x="-12.7" y="-20.32" length="short"/>
-<pin name="SIO_D" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="AVDD" x="-12.7" y="20.32" length="short"/>
-<pin name="SIO_C" x="12.7" y="20.32" length="short" rot="R180"/>
-<pin name="RESET" x="-12.7" y="2.54" length="short"/>
-<pin name="VSYNC" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="PWDN" x="-12.7" y="-12.7" length="short"/>
-<pin name="HREF" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="DVDD" x="-12.7" y="12.7" length="short"/>
-<pin name="DOVDD" x="-12.7" y="17.78" length="short"/>
-<pin name="Y7" x="12.7" y="-20.32" length="short" rot="R180"/>
-<pin name="XCLK1" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="Y6" x="12.7" y="-17.78" length="short" rot="R180"/>
-<pin name="DGND" x="-12.7" y="-17.78" length="short"/>
-<pin name="Y5" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="PCLK" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="Y4" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="Y0" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="Y3" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="Y1" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="Y2" x="12.7" y="-7.62" length="short" rot="R180"/>
-<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<text x="-10.16" y="23.114" size="1.778" layer="95">&gt;Name</text>
-<text x="-10.16" y="-23.114" size="1.778" layer="96" align="top-left">&gt;Value</text>
-<pin name="MNT1" x="-2.54" y="-22.86" visible="off" length="point"/>
-<pin name="MNT2" x="2.54" y="-22.86" visible="off" length="point"/>
-</symbol>
 <symbol name="CORTEX_DEBUG_MINIMUM">
 <pin name="VCC" x="-12.7" y="5.08" length="short"/>
 <pin name="GND" x="-12.7" y="-2.54" length="short"/>
@@ -16787,6 +16756,35 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 <wire x1="7.62" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-10.16" y="-7.366" size="1.778" layer="96" font="vector">&gt;Value</text>
+</symbol>
+<symbol name="CAMERA-OV7670-MODULE">
+<pin name="SDA" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="AVDD" x="-12.7" y="20.32" length="short"/>
+<pin name="SCL" x="12.7" y="20.32" length="short" rot="R180"/>
+<pin name="TRIG" x="-12.7" y="7.62" length="short"/>
+<pin name="LVLD" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="FVLD" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="INT" x="-12.7" y="5.08" length="short"/>
+<pin name="IOVDD" x="-12.7" y="15.24" length="short"/>
+<pin name="D7" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="MCLK" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="D6" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="GND" x="-12.7" y="-20.32" length="short"/>
+<pin name="D5" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="PCLK" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="D4" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="D0" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="D3" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="D1" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="D2" x="12.7" y="-7.62" length="short" rot="R180"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="23.114" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-23.114" size="1.778" layer="96" align="top-left">&gt;Value</text>
+<pin name="MNT1" x="-2.54" y="-22.86" visible="off" length="point"/>
+<pin name="MNT2" x="2.54" y="-22.86" visible="off" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -17221,46 +17219,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAMERA-OV7670" prefix="J">
-<gates>
-<gate name="G$1" symbol="CAMERA-OV7670-MODULE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
-<connects>
-<connect gate="G$1" pin="AGND" pad="2"/>
-<connect gate="G$1" pin="AVDD" pad="4"/>
-<connect gate="G$1" pin="DGND" pad="15"/>
-<connect gate="G$1" pin="DOVDD" pad="11"/>
-<connect gate="G$1" pin="DVDD" pad="10"/>
-<connect gate="G$1" pin="HREF" pad="9"/>
-<connect gate="G$1" pin="MNT1" pad="MNT1@0 MNT1@1"/>
-<connect gate="G$1" pin="MNT2" pad="MNT2@0 MNT2@1"/>
-<connect gate="G$1" pin="PCLK" pad="17"/>
-<connect gate="G$1" pin="PWDN" pad="8"/>
-<connect gate="G$1" pin="RESET" pad="6"/>
-<connect gate="G$1" pin="SIO_C" pad="5"/>
-<connect gate="G$1" pin="SIO_D" pad="3"/>
-<connect gate="G$1" pin="VSYNC" pad="7"/>
-<connect gate="G$1" pin="XCLK1" pad="13"/>
-<connect gate="G$1" pin="Y0" pad="19"/>
-<connect gate="G$1" pin="Y1" pad="21"/>
-<connect gate="G$1" pin="Y2" pad="22"/>
-<connect gate="G$1" pin="Y3" pad="20"/>
-<connect gate="G$1" pin="Y4" pad="18"/>
-<connect gate="G$1" pin="Y5" pad="16"/>
-<connect gate="G$1" pin="Y6" pad="14"/>
-<connect gate="G$1" pin="Y7" pad="12"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="609-4320-2-ND"/>
-<attribute name="PROD_ID" value="CONN-14233"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CORTEX_DEBUG_MINIMUM" prefix="J">
 <description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
 &lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
@@ -17312,6 +17270,44 @@ PTH and SMD connector options available.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAMERA-HIMAX" prefix="J">
+<gates>
+<gate name="G$1" symbol="CAMERA-OV7670-MODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FPC-24-AMPHENOL-SFV24R-1STE1HLF">
+<connects>
+<connect gate="G$1" pin="AVDD" pad="4 11"/>
+<connect gate="G$1" pin="D0" pad="14"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="D2" pad="9"/>
+<connect gate="G$1" pin="D3" pad="5"/>
+<connect gate="G$1" pin="D4" pad="12"/>
+<connect gate="G$1" pin="D5" pad="20"/>
+<connect gate="G$1" pin="D6" pad="19"/>
+<connect gate="G$1" pin="D7" pad="13"/>
+<connect gate="G$1" pin="FVLD" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2 15"/>
+<connect gate="G$1" pin="INT" pad="18"/>
+<connect gate="G$1" pin="IOVDD" pad="10"/>
+<connect gate="G$1" pin="LVLD" pad="16"/>
+<connect gate="G$1" pin="MCLK" pad="8"/>
+<connect gate="G$1" pin="MNT1" pad="MNT1@0 MNT1@1"/>
+<connect gate="G$1" pin="MNT2" pad="MNT2@0 MNT2@1"/>
+<connect gate="G$1" pin="PCLK" pad="17"/>
+<connect gate="G$1" pin="SCL" pad="21"/>
+<connect gate="G$1" pin="SDA" pad="22"/>
+<connect gate="G$1" pin="TRIG" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="609-4320-2-ND"/>
+<attribute name="PROD_ID" value="CONN-14233"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22831,7 +22827,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C10" library="ambiq" deviceset="15PF" device="-0402-TIGHT-50V-5%" value="15pF"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CAMERA-OV7670" device=""/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS_OVERPASTE_INNER"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
@@ -22863,8 +22858,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
@@ -22902,15 +22895,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="R23" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="R24" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="SUPPLY38" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
@@ -22962,6 +22949,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CAMERA-HIMAX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22981,7 +22969,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
 <text x="58.42" y="132.08" size="1.27" layer="97">Apollo3 Supply Range: 1.755-3.63V</text>
 <text x="73.66" y="139.7" size="2.54" layer="97" align="center">Ambiq Apollo3</text>
-<text x="30.48" y="180.34" size="2.54" layer="97" align="center">Coin Cell/FTDI Power</text>
+<text x="30.48" y="180.34" size="2.54" layer="97" align="center">Coin Cell/Serial Power</text>
 <text x="99.06" y="180.34" size="2.54" layer="97" align="center">Artemis Decoupling</text>
 <text x="203.2" y="182.88" size="2.54" layer="97" align="center">LEDs</text>
 <text x="198.12" y="137.16" size="2.54" layer="97" align="center">Programming Headers</text>
@@ -23094,8 +23082,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY3" gate="G$1" x="27.94" y="172.72" smashed="yes">
 <attribute name="VALUE" x="27.94" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="VDD" x="43.18" y="172.72" smashed="yes">
-<attribute name="VALUE" x="43.18" y="175.514" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="VDD" x="38.1" y="172.72" smashed="yes">
+<attribute name="VALUE" x="38.1" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="172.72" y="86.36" smashed="yes">
 <attribute name="VALUE" x="170.18" y="76.454" size="1.778" layer="96" font="vector"/>
@@ -23108,34 +23096,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND18" gate="1" x="165.1" y="76.2" smashed="yes">
 <attribute name="VALUE" x="165.1" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY13" gate="VDD" x="182.88" y="96.52" smashed="yes">
-<attribute name="VALUE" x="182.88" y="99.314" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY13" gate="VDD" x="182.88" y="93.98" smashed="yes">
+<attribute name="VALUE" x="182.88" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="172.72" y="38.1" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="134.62" y="10.16" smashed="yes"/>
-<instance part="J4" gate="G$1" x="205.74" y="81.28" smashed="yes">
-<attribute name="VALUE" x="200.66" y="75.946" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="200.66" y="89.154" size="1.778" layer="95" font="vector"/>
+<instance part="J4" gate="G$1" x="200.66" y="83.82" smashed="yes">
+<attribute name="VALUE" x="195.58" y="78.486" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="195.58" y="91.694" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND41" gate="1" x="215.9" y="73.66" smashed="yes">
-<attribute name="VALUE" x="215.9" y="73.406" size="1.778" layer="96" align="top-center"/>
+<instance part="GND41" gate="1" x="210.82" y="76.2" smashed="yes">
+<attribute name="VALUE" x="210.82" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY35" gate="VDD" x="215.9" y="101.6" smashed="yes">
-<attribute name="VALUE" x="215.9" y="104.394" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R23" gate="G$1" x="220.98" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="219.456" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="222.504" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R24" gate="G$1" x="228.6" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="227.076" y="93.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="230.124" y="93.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY36" gate="VDD" x="220.98" y="101.6" smashed="yes">
-<attribute name="VALUE" x="220.98" y="104.394" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY37" gate="VDD" x="228.6" y="101.6" smashed="yes">
-<attribute name="VALUE" x="228.6" y="104.394" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY35" gate="VDD" x="210.82" y="91.44" smashed="yes">
+<attribute name="VALUE" x="210.82" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="TP1" gate="G$1" x="228.6" y="134.62" smashed="yes">
 <attribute name="NAME" x="232.41" y="133.858" size="1.778" layer="95" font="vector"/>
@@ -23145,11 +23119,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="232.41" y="131.064" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="226.06" y="129.54" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP3" gate="G$1" x="231.14" y="78.74" smashed="yes">
-<attribute name="NAME" x="231.14" y="79.756" size="1.778" layer="95" font="vector"/>
+<instance part="TP3" gate="G$1" x="218.44" y="81.28" smashed="yes">
+<attribute name="NAME" x="222.25" y="80.518" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP4" gate="G$1" x="231.14" y="73.66" smashed="yes">
-<attribute name="NAME" x="231.14" y="74.676" size="1.778" layer="95" font="vector"/>
+<instance part="TP4" gate="G$1" x="218.44" y="78.74" smashed="yes">
+<attribute name="NAME" x="222.25" y="77.978" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP5" gate="G$1" x="177.8" y="119.38" smashed="yes">
 <attribute name="NAME" x="181.61" y="118.618" size="1.778" layer="95" font="vector"/>
@@ -23217,35 +23191,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="35.56" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="157.48" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="170.18" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
-<junction x="43.18" y="170.18"/>
+<wire x1="38.1" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="170.18" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
+<junction x="38.1" y="170.18"/>
 <pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="81.28" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="81.28" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="SUPPLY35" gate="VDD" pin="VDD"/>
-<wire x1="215.9" y1="81.28" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="83.82" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="SUPPLY36" gate="VDD" pin="VDD"/>
-<wire x1="220.98" y1="101.6" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R24" gate="G$1" pin="2"/>
-<pinref part="SUPPLY37" gate="VDD" pin="VDD"/>
-<wire x1="228.6" y1="101.6" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -23343,9 +23307,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="215.9" y1="76.2" x2="215.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="109.22" y1="157.48" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
@@ -23399,17 +23363,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="QWIIC_SCL" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="86.36" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="86.36" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
-<junction x="228.6" y="86.36"/>
-<label x="231.14" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<label x="220.98" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="78.74" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
-<junction x="226.06" y="86.36"/>
+<wire x1="218.44" y1="81.28" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="81.28" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
+<junction x="215.9" y="88.9"/>
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
@@ -23470,37 +23430,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="CAMERA_DVDD_EN" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
-<wire x1="109.22" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<label x="111.76" y="106.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<label x="38.1" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="U1" pin="~AD32(SCCIO)"/>
 </segment>
 </net>
 <net name="CAMERA_VSYNC" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
-<wire x1="40.64" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
-<label x="38.1" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<label x="38.1" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
 </segment>
 </net>
-<net name="CAMERA_PWDN" class="0">
+<net name="CAMERA_INT" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15"/>
-<wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
-<label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="111.76" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
 </segment>
 </net>
 <net name="CAMERA_I2C_SDA" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
-<wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<label x="111.76" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
+</segment>
+<segment>
+<wire x1="-58.42" y1="96.52" x2="-55.88" y2="96.52" width="0.1524" layer="91"/>
+<label x="-55.88" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAMERA_I2C_SCL" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(SCL2/SCK2)~D27"/>
-<wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="111.76" y="71.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
+<label x="111.76" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
+</segment>
+<segment>
+<wire x1="-58.42" y1="99.06" x2="-55.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="-55.88" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="~AD33/SWO" class="0">
@@ -23518,17 +23486,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="QWIIC_SDA" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="83.82" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<junction x="220.98" y="83.82"/>
-<label x="231.14" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<label x="220.98" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="73.66" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<junction x="223.52" y="83.82"/>
+<wire x1="213.36" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="78.74" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<junction x="213.36" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
@@ -23613,8 +23577,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="FTDI_VCC" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="30.48" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
-<label x="25.4" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
+<label x="27.94" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="VCC"/>
@@ -23653,88 +23617,93 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="38.1" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAMERA_RESET" class="0">
+<net name="CAMERA_TRIG" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="~AD11(PDMDATA)"/>
-<wire x1="40.64" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="38.1" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAMERA_HREF" class="0">
-<segment>
-<pinref part="U5" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
-<wire x1="40.64" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
-<label x="38.1" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAMERA_Y7" class="0">
-<segment>
-<pinref part="U5" gate="U1" pin="(SCCRST)~D26"/>
 <wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <label x="111.76" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SCCRST)~D26"/>
 </segment>
 </net>
-<net name="CAMERA_XCLK" class="0">
+<net name="CAMERA_HSYNC" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="~AD32(SCCIO)"/>
-<wire x1="40.64" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-<label x="38.1" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<label x="111.76" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SCL2/SCK2)~D27"/>
 </segment>
 </net>
-<net name="CAMERA_Y6" class="0">
+<net name="CAMERA_D7" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
-<wire x1="109.22" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
-<label x="111.76" y="109.22" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAMERA_Y5" class="0">
-<segment>
-<pinref part="U5" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
 <wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <label x="111.76" y="68.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
+</segment>
+</net>
+<net name="CAMERA_D6" class="0">
+<segment>
+<wire x1="40.64" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
+<label x="38.1" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
+</segment>
+<segment>
+<wire x1="-40.64" y1="43.18" x2="-43.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="-43.18" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAMERA_D5" class="0">
+<segment>
+<wire x1="109.22" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<label x="111.76" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SCL0/SCK0)~D5"/>
+</segment>
+<segment>
+<wire x1="-58.42" y1="106.68" x2="-55.88" y2="106.68" width="0.1524" layer="91"/>
+<label x="-55.88" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAMERA_PCLK" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14"/>
+<wire x1="109.22" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
+<label x="111.76" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
+</segment>
+<segment>
+<wire x1="-58.42" y1="101.6" x2="-55.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="-55.88" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAMERA_D4" class="0">
+<segment>
+<wire x1="109.22" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+<label x="111.76" y="109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+</segment>
+</net>
+<net name="CAMERA_D0" class="0">
+<segment>
 <wire x1="109.22" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <label x="111.76" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14"/>
 </segment>
 </net>
-<net name="CAMERA_Y4" class="0">
+<net name="CAMERA_D3" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
-<wire x1="109.22" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="111.76" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15"/>
 </segment>
 </net>
-<net name="CAMERA_Y0" class="0">
+<net name="CAMERA_D1" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(PDMCLK/SWO)~D22"/>
-<wire x1="109.22" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
-<label x="111.76" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
+<label x="38.1" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U5" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
 </segment>
 </net>
-<net name="CAMERA_Y3" class="0">
+<net name="CAMERA_D2" class="0">
 <segment>
-<pinref part="U5" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
-<wire x1="109.22" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<label x="111.76" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAMERA_Y1" class="0">
-<segment>
-<pinref part="U5" gate="U1" pin="(RX1/SLINT)~D4"/>
-<wire x1="109.22" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
-<label x="111.76" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAMERA_Y2" class="0">
-<segment>
-<pinref part="U5" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
-<wire x1="40.64" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
-<label x="38.1" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<label x="111.76" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
 </segment>
 </net>
 <net name="LED_RED" class="0">
@@ -23837,6 +23806,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="185.42" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="CAMERA_MCLK" class="0">
+<segment>
+<wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<label x="111.76" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -23867,39 +23843,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="63.5" y="35.56" smashed="yes">
-<attribute name="NAME" x="53.34" y="58.674" size="1.778" layer="95"/>
-<attribute name="VALUE" x="53.34" y="12.446" size="1.778" layer="96" align="top-left"/>
+<instance part="R13" gate="G$1" x="88.9" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.376" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="90.424" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="78.74" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.216" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="80.264" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R15" gate="G$1" x="99.06" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.536" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="100.584" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="88.9" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.376" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90.424" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="SUPPLY25" gate="VDD" x="88.9" y="73.66" smashed="yes">
+<attribute name="VALUE" x="88.9" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY25" gate="VDD" x="78.74" y="71.12" smashed="yes">
-<attribute name="VALUE" x="78.74" y="73.914" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY27" gate="VDD" x="99.06" y="73.66" smashed="yes">
+<attribute name="VALUE" x="99.06" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY27" gate="VDD" x="88.9" y="71.12" smashed="yes">
-<attribute name="VALUE" x="88.9" y="73.914" size="1.778" layer="96" align="bottom-center"/>
+<instance part="GND32" gate="1" x="58.42" y="12.7" smashed="yes">
+<attribute name="VALUE" x="58.42" y="12.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND32" gate="1" x="48.26" y="10.16" smashed="yes">
-<attribute name="VALUE" x="48.26" y="9.906" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY21" gate="VDD" x="58.42" y="60.96" smashed="yes">
+<attribute name="VALUE" x="58.42" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="38.1" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.576" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="39.624" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY18" gate="VDD" x="38.1" y="58.42" smashed="yes">
-<attribute name="VALUE" x="38.1" y="61.214" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY21" gate="VDD" x="48.26" y="58.42" smashed="yes">
-<attribute name="VALUE" x="48.26" y="61.214" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY20" gate="G$1" x="43.18" y="58.42" smashed="yes">
-<attribute name="VALUE" x="43.18" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY20" gate="G$1" x="53.34" y="60.96" smashed="yes">
+<attribute name="VALUE" x="53.34" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U3" gate="G$1" x="86.36" y="106.68" smashed="yes">
 <attribute name="NAME" x="78.74" y="114.554" size="1.778" layer="95" font="vector"/>
@@ -23981,13 +23946,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="SUPPLY22" gate="VDD" x="71.12" y="172.72" smashed="yes">
 <attribute name="VALUE" x="71.12" y="175.514" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R22" gate="G$1" x="40.64" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.116" y="15.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="42.164" y="15.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND40" gate="1" x="40.64" y="5.08" smashed="yes">
-<attribute name="VALUE" x="40.64" y="4.826" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R25" gate="G$1" x="109.22" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.744" y="149.86" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
@@ -24095,20 +24053,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY12" gate="VDD" x="218.44" y="152.4" smashed="yes">
 <attribute name="VALUE" x="218.44" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="J7" gate="G$1" x="73.66" y="38.1" smashed="yes">
+<attribute name="NAME" x="63.5" y="61.214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.5" y="14.986" size="1.778" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="AGND"/>
-<wire x1="48.26" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="DGND"/>
-<wire x1="50.8" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="17.78" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<junction x="48.26" y="15.24"/>
+<wire x1="60.96" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="48.26" y1="12.7" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
@@ -24150,11 +24108,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="40.64" y1="7.62" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -24207,27 +24160,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="SUPPLY25" gate="VDD" pin="VDD"/>
-<wire x1="78.74" y1="68.58" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="71.12" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="SUPPLY27" gate="VDD" pin="VDD"/>
-<wire x1="88.9" y1="68.58" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="71.12" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="SUPPLY18" gate="VDD" pin="VDD"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="AVDD"/>
 <pinref part="SUPPLY21" gate="VDD" pin="VDD"/>
-<wire x1="50.8" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="55.88" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="DOVDD"/>
-<wire x1="50.8" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="53.34" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<junction x="48.26" y="55.88"/>
+<wire x1="60.96" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
@@ -24323,88 +24267,88 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="CAMERA_I2C_SCL" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="SIO_C"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="55.88" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<junction x="78.74" y="55.88"/>
-<label x="93.98" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="58.42" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
+<junction x="88.9" y="58.42"/>
+<label x="101.6" y="58.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="CAMERA_I2C_SDA" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="SIO_D"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="53.34" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-<junction x="88.9" y="53.34"/>
-<label x="93.98" y="53.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="55.88" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
+<junction x="99.06" y="55.88"/>
+<label x="101.6" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="CAMERA_Y1" class="0">
+<net name="CAMERA_D1" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y1"/>
-<wire x1="76.2" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="78.74" y="30.48" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<label x="88.9" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D1"/>
 </segment>
 </net>
-<net name="CAMERA_Y3" class="0">
+<net name="CAMERA_D3" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y3"/>
-<wire x1="76.2" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<label x="88.9" y="27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D3"/>
 </segment>
 </net>
-<net name="CAMERA_Y4" class="0">
+<net name="CAMERA_D4" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y4"/>
-<wire x1="76.2" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
-<label x="78.74" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
+<label x="88.9" y="25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D4"/>
 </segment>
 </net>
-<net name="CAMERA_Y5" class="0">
+<net name="CAMERA_D5" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y5"/>
-<wire x1="76.2" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
-<label x="78.74" y="20.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
+<label x="88.9" y="22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D5"/>
 </segment>
 </net>
-<net name="CAMERA_Y6" class="0">
+<net name="CAMERA_D6" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y6"/>
-<wire x1="76.2" y1="17.78" x2="78.74" y2="17.78" width="0.1524" layer="91"/>
-<label x="78.74" y="17.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<label x="88.9" y="20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D6"/>
 </segment>
 </net>
-<net name="CAMERA_Y7" class="0">
+<net name="CAMERA_D7" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y7"/>
-<wire x1="76.2" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
-<label x="78.74" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="17.78" x2="88.9" y2="17.78" width="0.1524" layer="91"/>
+<label x="88.9" y="17.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="CAMERA_VSYNC" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="VSYNC"/>
-<wire x1="76.2" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<label x="78.74" y="43.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="FVLD"/>
 </segment>
 </net>
-<net name="CAMERA_HREF" class="0">
+<net name="CAMERA_HSYNC" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="HREF"/>
-<wire x1="76.2" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<label x="78.74" y="40.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="88.9" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="LVLD"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="DVDD"/>
-<wire x1="50.8" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="48.26" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="1.8V"/>
+<pinref part="J7" gate="G$1" pin="IOVDD"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
@@ -24422,23 +24366,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="CAMERA_PCLK" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="PCLK"/>
-<wire x1="76.2" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
-<label x="78.74" y="38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="88.9" y="40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="PCLK"/>
 </segment>
 </net>
-<net name="CAMERA_Y0" class="0">
+<net name="CAMERA_D0" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y0"/>
-<wire x1="76.2" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<label x="78.74" y="33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="88.9" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D0"/>
 </segment>
 </net>
-<net name="CAMERA_Y2" class="0">
+<net name="CAMERA_D2" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="Y2"/>
-<wire x1="76.2" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
-<label x="78.74" y="27.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
+<label x="88.9" y="30.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="ACCEL_I2C_SCL" class="0">
@@ -24474,27 +24418,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="116.84" y="137.16"/>
 </segment>
 </net>
-<net name="CAMERA_RESET" class="0">
+<net name="CAMERA_TRIG" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="RESET"/>
-<wire x1="50.8" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="38.1" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<junction x="38.1" y="38.1"/>
-<label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<label x="58.42" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="TRIG"/>
 </segment>
 </net>
-<net name="CAMERA_PWDN" class="0">
+<net name="CAMERA_INT" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="PWDN"/>
-<wire x1="50.8" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91" style="longdash"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="22.86" x2="40.64" y2="20.32" width="0.1524" layer="91" style="longdash"/>
-<wire x1="40.64" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91" style="longdash"/>
-<junction x="40.64" y="22.86"/>
-<label x="38.1" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<label x="58.42" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="INT"/>
 </segment>
 </net>
 <net name="CAMERA_DVDD_EN" class="0">
@@ -24508,11 +24443,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="68.58" y="106.68"/>
 </segment>
 </net>
-<net name="CAMERA_XCLK" class="0">
+<net name="CAMERA_MCLK" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="XCLK1"/>
-<wire x1="76.2" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="88.9" y="43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="MCLK"/>
 </segment>
 </net>
 <net name="ACCEL_INT2" class="0">
