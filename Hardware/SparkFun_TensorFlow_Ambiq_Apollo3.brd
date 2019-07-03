@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -6758,8 +6758,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.4934" y1="24.82141875" x2="15.4934" y2="28.1066" width="0.3048" layer="1"/>
 <wire x1="35" y1="28.5" x2="33.984" y2="28.5" width="0.3048" layer="1"/>
 <wire x1="33.984" y1="28.5" x2="33.528" y2="28.956" width="0.3048" layer="1"/>
-<wire x1="33.528" y1="32.847" x2="32.435" y2="33.94" width="0.3048" layer="1"/>
-<wire x1="33.528" y1="28.956" x2="33.528" y2="32.847" width="0.3048" layer="1"/>
+<wire x1="33.528" y1="33.482" x2="33.07" y2="33.94" width="0.3048" layer="1"/>
+<wire x1="33.07" y1="33.94" x2="32.435" y2="33.94" width="0.3048" layer="1"/>
+<wire x1="33.528" y1="28.956" x2="33.528" y2="33.482" width="0.3048" layer="1"/>
 <wire x1="15.8" y1="37.5" x2="11.084" y2="37.5" width="0.3048" layer="1"/>
 <wire x1="10.37" y1="36.786" x2="10.37" y2="34.925" width="0.3048" layer="1"/>
 <wire x1="10.37" y1="34.925" x2="10.37" y2="33.23" width="0.3048" layer="1"/>
@@ -7007,9 +7008,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="CAMERA_D3">
 <contactref element="J7" pad="5"/>
-<contactref element="U5" pad="D15"/>
-<wire x1="28.5" y1="20.5" x2="27.05945625" y2="20.5" width="0.1524" layer="1"/>
-<wire x1="27.05945625" y1="20.5" x2="26.86865625" y2="20.3092" width="0.1524" layer="1"/>
 <wire x1="26.86865625" y1="20.3092" x2="25.35974375" y2="20.3092" width="0.1524" layer="1"/>
 <wire x1="25.35974375" y1="20.3092" x2="24.38814375" y2="21.2808" width="0.1524" layer="1"/>
 <wire x1="24.38814375" y1="21.2808" x2="20.094975" y2="21.2808" width="0.1524" layer="1"/>
@@ -7017,17 +7015,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.2808" y1="32.9192" x2="16.2808" y2="25.094975" width="0.1524" layer="1"/>
 <wire x1="16.25" y1="34.6" x2="16.25" y2="32.95" width="0.1524" layer="1"/>
 <wire x1="16.25" y1="32.95" x2="16.2808" y2="32.9192" width="0.1524" layer="1"/>
+<contactref element="U5" pad="AD34"/>
+<wire x1="28.5" y1="19.5" x2="27.67785625" y2="19.5" width="0.1524" layer="1"/>
+<wire x1="27.67785625" y1="19.5" x2="26.86865625" y2="20.3092" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_D1">
 <contactref element="J7" pad="3"/>
-<contactref element="U5" pad="AD34"/>
 <wire x1="15.25" y1="33.3" x2="15.25" y2="34.6" width="0.1524" layer="1"/>
-<wire x1="28.5" y1="19.5" x2="25.7378875" y2="19.5" width="0.1524" layer="1"/>
 <wire x1="24.2618875" y1="20.976" x2="19.96871875" y2="20.976" width="0.1524" layer="1"/>
 <wire x1="15.976" y1="32.574" x2="15.25" y2="33.3" width="0.1524" layer="1"/>
-<wire x1="25.7378875" y1="19.5" x2="24.2618875" y2="20.976" width="0.1524" layer="1"/>
+<wire x1="25.3568875" y1="19.881" x2="24.2618875" y2="20.976" width="0.1524" layer="1"/>
 <wire x1="19.96871875" y1="20.976" x2="15.976" y2="24.96871875" width="0.1524" layer="1"/>
 <wire x1="15.976" y1="24.96871875" x2="15.976" y2="32.574" width="0.1524" layer="1"/>
+<contactref element="U5" pad="~AD11"/>
+<wire x1="29.3" y1="19" x2="27.355" y2="19" width="0.1524" layer="1"/>
+<wire x1="26.474" y1="19.881" x2="25.3568875" y2="19.881" width="0.1524" layer="1"/>
+<wire x1="27.355" y1="19" x2="26.474" y2="19.881" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_D2">
 <contactref element="J7" pad="9"/>
@@ -7040,26 +7043,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="CAMERA_VSYNC">
 <contactref element="J7" pad="6"/>
-<contactref element="U5" pad="~AD13"/>
-<wire x1="29.3" y1="21" x2="27.1284" y2="21" width="0.1524" layer="1"/>
-<wire x1="27.1284" y1="21" x2="27.0642" y2="20.9358" width="0.1524" layer="1"/>
-<wire x1="27.0642" y1="20.9358" x2="27.0472" y2="20.9188" width="0.1524" layer="1"/>
-<wire x1="27.0472" y1="20.9188" x2="26.7424" y2="20.614" width="0.1524" layer="1"/>
-<wire x1="26.7424" y1="20.614" x2="25.486" y2="20.614" width="0.1524" layer="1"/>
 <wire x1="25.486" y1="20.614" x2="24.5144" y2="21.5856" width="0.1524" layer="1"/>
 <wire x1="20.22123125" y1="21.5856" x2="16.5856" y2="25.22123125" width="0.1524" layer="1"/>
 <wire x1="16.75" y1="32.75" x2="16.75" y2="34.6" width="0.1524" layer="1"/>
 <wire x1="24.5144" y1="21.5856" x2="20.22123125" y2="21.5856" width="0.1524" layer="1"/>
 <wire x1="16.5856" y1="25.22123125" x2="16.5856" y2="32.5856" width="0.1524" layer="1"/>
 <wire x1="16.5856" y1="32.5856" x2="16.75" y2="32.75" width="0.1524" layer="1"/>
+<contactref element="U5" pad="D15"/>
+<wire x1="28.5" y1="20.5" x2="27.1089125" y2="20.5" width="0.1524" layer="1"/>
+<wire x1="27.1089125" y1="20.5" x2="26.9949125" y2="20.614" width="0.1524" layer="1"/>
+<wire x1="26.9949125" y1="20.614" x2="25.486" y2="20.614" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_INT">
 <contactref element="J7" pad="18"/>
-<wire x1="22.76894375" y1="29.76894375" x2="22.75" y2="29.7878875" width="0.1524" layer="1"/>
-<wire x1="22.75" y1="29.7878875" x2="22.75" y2="34.6" width="0.1524" layer="1"/>
+<wire x1="22.76894375" y1="33.57894375" x2="22.75" y2="33.5978875" width="0.1524" layer="1"/>
+<wire x1="22.75" y1="33.5978875" x2="22.75" y2="34.6" width="0.1524" layer="1"/>
 <contactref element="U5" pad="~D23"/>
 <wire x1="31" y1="23.7" x2="31" y2="24.9" width="0.1524" layer="1"/>
-<wire x1="22.76894375" y1="28.524225" x2="22.76894375" y2="29.76894375" width="0.1524" layer="1"/>
+<wire x1="22.76894375" y1="28.524225" x2="22.76894375" y2="33.57894375" width="0.1524" layer="1"/>
 <wire x1="31" y1="24.9" x2="29.7856" y2="26.1144" width="0.1524" layer="1"/>
 <wire x1="29.7856" y1="26.1144" x2="25.17876875" y2="26.1144" width="0.1524" layer="1"/>
 <wire x1="25.17876875" y1="26.1144" x2="22.76894375" y2="28.524225" width="0.1524" layer="1"/>
@@ -7284,24 +7285,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="20.75" y1="32.95" x2="22.1404" y2="31.5596" width="0.1524" layer="1"/>
 <wire x1="22.1404" y1="31.5596" x2="22.1404" y2="28.29065625" width="0.1524" layer="1"/>
 <contactref element="U5" pad="D14"/>
-<wire x1="30" y1="23.7" x2="29.9286" y2="23.7714" width="0.1524" layer="1"/>
-<wire x1="29.9286" y1="23.7714" x2="29.9286" y2="25.00245625" width="0.1524" layer="1"/>
-<wire x1="29.9286" y1="25.00245625" x2="29.42625625" y2="25.5048" width="0.1524" layer="1"/>
 <wire x1="29.42625625" y1="25.5048" x2="24.92625625" y2="25.5048" width="0.1524" layer="1"/>
 <wire x1="24.92625625" y1="25.5048" x2="22.1404" y2="28.29065625" width="0.1524" layer="1"/>
+<wire x1="30" y1="23.7" x2="30" y2="24.93105625" width="0.1524" layer="1"/>
+<wire x1="30" y1="24.93105625" x2="29.42625625" y2="25.5048" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_TRIG">
 <contactref element="J7" pad="7"/>
-<contactref element="U5" pad="~D26"/>
-<wire x1="28.5" y1="21.5" x2="27.19734375" y2="21.5" width="0.1524" layer="1"/>
-<wire x1="27.19734375" y1="21.5" x2="26.61614375" y2="20.9188" width="0.1524" layer="1"/>
 <wire x1="17.25" y1="34.6" x2="17.25" y2="32.6121125" width="0.1524" layer="1"/>
 <wire x1="17.25" y1="32.6121125" x2="16.8904" y2="32.2525125" width="0.1524" layer="1"/>
 <wire x1="16.8904" y1="32.2525125" x2="16.8904" y2="25.3474875" width="0.1524" layer="1"/>
 <wire x1="20.3474875" y1="21.8904" x2="16.8904" y2="25.3474875" width="0.1524" layer="1"/>
 <wire x1="24.74545625" y1="21.8904" x2="20.3474875" y2="21.8904" width="0.1524" layer="1"/>
-<wire x1="26.61614375" y1="20.9188" x2="25.71705625" y2="20.9188" width="0.1524" layer="1"/>
 <wire x1="25.71705625" y1="20.9188" x2="24.74545625" y2="21.8904" width="0.1524" layer="1"/>
+<contactref element="U5" pad="~AD13"/>
+<wire x1="29.3" y1="21" x2="29.2188" y2="20.9188" width="0.1524" layer="1"/>
+<wire x1="29.2188" y1="20.9188" x2="28.9044875" y2="20.9188" width="0.1524" layer="1"/>
+<wire x1="28.9044875" y1="20.9188" x2="28.8946875" y2="20.9286" width="0.1524" layer="1"/>
+<wire x1="28.8946875" y1="20.9286" x2="28.1053125" y2="20.9286" width="0.1524" layer="1"/>
+<wire x1="28.1053125" y1="20.9286" x2="28.0955125" y2="20.9188" width="0.1524" layer="1"/>
+<wire x1="28.0955125" y1="20.9188" x2="25.71705625" y2="20.9188" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_DVDD_EN">
 <contactref element="U3" pad="3"/>
@@ -7470,27 +7473,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="CAMERA_MCLK">
 <contactref element="J7" pad="8"/>
-<contactref element="U5" pad="D0"/>
-<wire x1="35.5" y1="15.5" x2="35.5" y2="20.7" width="0.1524" layer="1"/>
-<wire x1="35.5" y1="20.7" x2="35.6" y2="20.8" width="0.1524" layer="1"/>
-<via x="35.6" y="20.8" extent="1-16" drill="0.3048"/>
-<wire x1="17.75" y1="34.6" x2="17.75" y2="32.68105625" width="0.1524" layer="1"/>
-<wire x1="17.75" y1="32.68105625" x2="17.1952" y2="32.12625625" width="0.1524" layer="1"/>
-<wire x1="17.1952" y1="25.47374375" x2="19.834471875" y2="22.834471875" width="0.1524" layer="1"/>
-<wire x1="19.834471875" y1="22.834471875" x2="19.984471875" y2="22.684471875" width="0.1524" layer="1"/>
-<wire x1="17.1952" y1="32.12625625" x2="17.1952" y2="25.47374375" width="0.1524" layer="1"/>
-<wire x1="35.6" y1="20.8" x2="31.8764" y2="20.8" width="0.1524" layer="16"/>
-<wire x1="31.8764" y1="20.8" x2="30.8382" y2="21.8382" width="0.1524" layer="16"/>
-<wire x1="30.8382" y1="21.8382" x2="30.7882" y2="21.8882" width="0.1524" layer="16"/>
-<via x="25.938" y="21.4522" extent="1-16" drill="0.3048"/>
-<wire x1="26.92094375" y1="21.2236" x2="26.47905625" y2="21.2236" width="0.1524" layer="16"/>
-<wire x1="30.8382" y1="21.8382" x2="27.53554375" y2="21.8382" width="0.1524" layer="16"/>
-<wire x1="26.47905625" y1="21.2236" x2="26.25045625" y2="21.4522" width="0.1524" layer="16"/>
-<wire x1="26.25045625" y1="21.4522" x2="25.938" y2="21.4522" width="0.1524" layer="16"/>
-<wire x1="27.53554375" y1="21.8382" x2="26.92094375" y2="21.2236" width="0.1524" layer="16"/>
-<wire x1="25.938" y1="21.4522" x2="25.195" y2="22.1952" width="0.1524" layer="1"/>
-<wire x1="20.47374375" y1="22.1952" x2="19.984471875" y2="22.684471875" width="0.1524" layer="1"/>
-<wire x1="25.195" y1="22.1952" x2="20.47374375" y2="22.1952" width="0.1524" layer="1"/>
+<contactref element="U5" pad="~D26"/>
+<wire x1="28.5" y1="21.5" x2="27.19734375" y2="21.5" width="0.1524" layer="1"/>
+<wire x1="27.19734375" y1="21.5" x2="26.92094375" y2="21.2236" width="0.1524" layer="1"/>
+<wire x1="26.92094375" y1="21.2236" x2="25.97105625" y2="21.2236" width="0.1524" layer="1"/>
+<wire x1="25.97105625" y1="21.2236" x2="24.99945625" y2="22.1952" width="0.1524" layer="1"/>
+<wire x1="24.99945625" y1="22.1952" x2="20.47374375" y2="22.1952" width="0.1524" layer="1"/>
+<wire x1="17.75" y1="32.68105625" x2="17.75" y2="34.6" width="0.1524" layer="1"/>
+<wire x1="20.47374375" y1="22.1952" x2="17.1952" y2="25.47374375" width="0.1524" layer="1"/>
+<wire x1="17.1952" y1="25.47374375" x2="17.1952" y2="32.12625625" width="0.1524" layer="1"/>
+<wire x1="17.1952" y1="32.12625625" x2="17.75" y2="32.68105625" width="0.1524" layer="1"/>
 </signal>
 <signal name="CAMERA_D6">
 <contactref element="J7" pad="19"/>
@@ -7640,6 +7632,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="4,1,9226c641b48dc180"/>
 <approved hash="19,1,1bde35bf356f3d2a"/>
 <approved hash="19,1,6dfbc3abe56d8d1a"/>
+<approved hash="23,1,7f945fe45f907fe0"/>
 </errors>
 </board>
 </drawing>
