@@ -22033,8 +22033,8 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <wire x1="58.42" y1="147.32" x2="58.42" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
 <text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
-<text x="15.24" y="149.86" size="1.27" layer="97">Apollo3 Supply Range: 1.755-3.63V</text>
-<text x="73.66" y="139.7" size="2.54" layer="97" align="center">Ambiq Apollo3</text>
+<text x="15.24" y="149.86" size="1.27" layer="97">Artemis Supply Range: 1.755-3.63V</text>
+<text x="73.66" y="139.7" size="2.54" layer="97" align="center">SparkFun Artemis</text>
 <text x="30.48" y="180.34" size="2.54" layer="97" align="center">Coin Cell/Serial Power</text>
 <text x="99.06" y="180.34" size="2.54" layer="97" align="center">Artemis Decoupling</text>
 <text x="203.2" y="182.88" size="2.54" layer="97" align="center">LEDs</text>
