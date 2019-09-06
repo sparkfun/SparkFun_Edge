@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -1773,13 +1773,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="0402-TIGHT">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -6574,15 +6574,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-08604" x="4.65" y="14.11" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="11" y="22.238" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R28" library="SparkFun-Resistors" package="0603" value="220k" x="11" y="26" smashed="yes">
-<attribute name="NAME" x="11" y="26.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08969" x="11" y="22.19" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" value="220k" x="11" y="25.238" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R28" library="SparkFun-Resistors" package="0603" value="220k" x="11" y="27.3" smashed="yes">
+<attribute name="NAME" x="11" y="28.062" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08969" x="11" y="23.49" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="220k" x="11" y="26.538" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="11" y="24.5" smashed="yes">
-<attribute name="NAME" x="11" y="25.262" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="11" y="13.07" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="11" y="23.738" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C7" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="11" y="25.9" smashed="yes">
+<attribute name="NAME" x="11" y="26.662" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00810" x="11" y="14.47" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="11" y="25.138" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C17" library="SparkFun-Capacitors" package="0603" value="1nF" x="11" y="20" smashed="yes" rot="R180">
 <attribute name="NAME" x="11" y="19.238" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -6642,6 +6642,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="20" y="39.3368" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="PROD_ID" value="CONN-14233" x="20" y="37" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="20" y="37" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="center"/>
+</element>
+<element name="R1" library="SparkFun-Resistors" package="0603" value="DNP" x="11" y="24.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="11" y="23.738" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07828" x="11" y="24.5" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="11" y="25.262" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -6943,6 +6948,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.562" y1="11.9" x2="0.863" y2="11.9" width="0.1524" layer="1"/>
 <wire x1="2" y1="11.462" x2="1.562" y2="11.9" width="0.1524" layer="1"/>
 <via x="27.559" y="16.891" extent="1-16" drill="0.3048"/>
+<contactref element="R1" pad="1"/>
 </signal>
 <signal name="SWDCK">
 <contactref element="TP1" pad="P$1"/>
@@ -7190,10 +7196,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C6" pad="1"/>
 <wire x1="6.5" y1="26.35" x2="8.321" y2="26.35" width="0.1524" layer="1"/>
 <wire x1="8.321" y1="26.35" x2="8.763" y2="25.908" width="0.1524" layer="1"/>
-<wire x1="8.763" y1="25.908" x2="8.763" y2="25.146" width="0.1524" layer="1"/>
-<wire x1="8.763" y1="25.146" x2="9.409" y2="24.5" width="0.1524" layer="1"/>
-<wire x1="9.409" y1="24.5" x2="10.15" y2="24.5" width="0.1524" layer="1"/>
+<wire x1="8.763" y1="25.908" x2="8.763" y2="25.9" width="0.1524" layer="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="10.15" y1="25.9" x2="10.15" y2="24.5" width="0.1524" layer="1"/>
 <wire x1="10.15" y1="24.5" x2="10.15" y2="23" width="0.1524" layer="1"/>
+<wire x1="8.763" y1="25.9" x2="10.15" y2="25.9" width="0.1524" layer="1"/>
 </signal>
 <signal name="V_BATT">
 <contactref element="BT1" pad="1"/>
@@ -7362,7 +7369,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R28" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="U5" pad="BOOT"/>
-<wire x1="11.85" y1="24.5" x2="11.85" y2="26" width="0.1524" layer="1"/>
+<wire x1="11.85" y1="25.9" x2="11.85" y2="27.3" width="0.1524" layer="1"/>
 <wire x1="36.5" y1="24.5" x2="36.5" y2="22.9" width="0.1524" layer="1"/>
 <via x="36.5" y="22.9" extent="1-16" drill="0.3048"/>
 <wire x1="35.27905625" y1="23.4334" x2="35.05045625" y2="23.2048" width="0.1524" layer="16"/>
@@ -7371,8 +7378,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="18.2952" y1="23.2048" x2="14.3" y2="27.2" width="0.1524" layer="16"/>
 <via x="14.3" y="27.2" extent="1-16" drill="0.3048"/>
 <wire x1="35.05045625" y1="23.2048" x2="18.2952" y2="23.2048" width="0.1524" layer="16"/>
-<wire x1="14.3" y1="27.2" x2="13.1" y2="26" width="0.1524" layer="1"/>
-<wire x1="13.1" y1="26" x2="11.85" y2="26" width="0.1524" layer="1"/>
+<wire x1="14.3" y1="27.2" x2="14.2" y2="27.3" width="0.1524" layer="1"/>
+<wire x1="14.2" y1="27.3" x2="11.85" y2="27.3" width="0.1524" layer="1"/>
 </signal>
 <signal name="MIC_DATA">
 <contactref element="E1" pad="1"/>
