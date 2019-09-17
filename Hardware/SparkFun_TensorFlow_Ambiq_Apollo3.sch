@@ -16680,20 +16680,20 @@ Used as a test point connection for pogo pins or other debugging tools.
 &lt;li&gt;&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<text x="-1.889" y="4.82033125" size="1.778" layer="25">&gt;NAME</text>
-<text x="-1.889" y="-2.82033125" size="1.778" layer="27">&gt;VALUE</text>
+<text x="0.016" y="4.56633125" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0.016" y="-1.29633125" size="0.6096" layer="27">&gt;VALUE</text>
 <smd name="1" x="0.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
 <smd name="2" x="1.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
 <smd name="3" x="2.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
 <smd name="4" x="3.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
 <smd name="NC1" x="-1" y="3.2" dx="1.2" dy="2" layer="1"/>
 <smd name="NC2" x="4.6" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="3.69" y1="3.87" x2="-0.1" y2="3.87" width="0.2" layer="21"/>
-<wire x1="-1.44" y1="1.33" x2="-1.44" y2="0.68" width="0.2" layer="21"/>
-<wire x1="-1.44" y1="0.68" x2="-0.68" y2="0.68" width="0.2" layer="21"/>
-<wire x1="5.05" y1="1.35" x2="5.05" y2="0.66" width="0.2" layer="21"/>
-<wire x1="5.05" y1="0.66" x2="4.32" y2="0.66" width="0.2" layer="21"/>
-<circle x="-0.17" y="-0.43" radius="0.143178125" width="0" layer="21"/>
+<wire x1="3.69" y1="3.87" x2="-0.1" y2="3.87" width="0.2032" layer="21"/>
+<wire x1="-1.44" y1="1.33" x2="-1.44" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="-1.44" y1="0.68" x2="-0.68" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="1.35" x2="5.05" y2="0.66" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="0.66" x2="4.32" y2="0.66" width="0.2032" layer="21"/>
+<circle x="-0.17" y="-0.43" radius="0.2032" width="0" layer="21"/>
 <wire x1="-1.143" y1="3.556" x2="-1.524" y2="3.556" width="0.1" layer="51"/>
 <wire x1="-1.524" y1="3.556" x2="-1.524" y2="3.175" width="0.1" layer="51"/>
 <wire x1="-1.524" y1="3.175" x2="-1.143" y2="3.175" width="0.1" layer="51"/>
@@ -17206,6 +17206,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14483" constant="no"/>
+<attribute name="VALUE" value="Vertical Qwiic Connector" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19317,27 +19318,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4.7KOHM" prefix="R">
-<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07857"/>
-<attribute name="VALUE" value="4.7k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1KOHM" prefix="R">
 <description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -19511,195 +19491,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="10KOHM" prefix="R">
-<description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09435"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12183"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/6W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/6W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/6W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08375"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-00824"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-1%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14241"/>
-<attribute name="VALUE" value="10k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14241" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="100KOHM" prefix="R">
 <description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -19824,6 +19615,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-13495"/>
 <attribute name="VALUE" value="100K"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13495" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21444,6 +21247,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
 <wire x1="1.27" y1="0.4294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
 <wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
 <wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
@@ -21463,7 +21267,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<circle x="-1.6002" y="-1.016" radius="0.127" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -21867,8 +21670,76 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="SUB-14415" constant="no"/>
+<attribute name="PROD_ID" value="SUB-14402" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="COMBO-JUMPER_2_NC_TRACE">
+<wire x1="0.508" y1="-0.889" x2="-0.508" y2="-0.889" width="0.2032" layer="21"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.2794"/>
+<vertex x="0.1905" y="0.2794"/>
+<vertex x="0.1905" y="-0.2794"/>
+<vertex x="-0.1905" y="-0.2794"/>
+</polygon>
+<rectangle x1="-0.2032" y1="-0.2794" x2="0.2032" y2="0.2794" layer="1"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<wire x1="0.508" y1="0.889" x2="-0.508" y2="0.889" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMT-JUMPER_2_NC_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-COMBO_2_NC_TRACE" prefix="JP">
+<gates>
+<gate name="JP1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="COMBO-JUMPER_2_NC_TRACE">
+<connects>
+<connect gate="JP1" pin="1" pad="1 3"/>
+<connect gate="JP1" pin="2" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21881,7 +21752,7 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.000153125" drill="0.00030625">
+<class number="0" name="default" width="0" drill="0">
 </class>
 <class number="2" name="usb" width="0.254" drill="0.3048">
 <clearance class="2" value="0.254"/>
@@ -21910,21 +21781,9 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <part name="U2" library="SparkFun-Sensors" deviceset="LIS2DH12" device=""/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C20" library="ambiq" deviceset="0.1UF" device="-0402-TIGHT-16V-10%" value="0.1uF"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="R12" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
-<part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
@@ -21956,7 +21815,7 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE">
 <attribute name="VERSION" value="x01"/>
@@ -21966,10 +21825,8 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="R25" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="R26" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
-<part name="SUPPLY38" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY39" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
+<part name="R25" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
@@ -21989,8 +21846,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C18" library="ambiq" deviceset="0.1UF" device="-0402-TIGHT-16V-10%" value="0.1uF"/>
-<part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22009,15 +21864,13 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="E2" library="SparkFun-Sensors" deviceset="SPH0641LM4H-1_MICROPHONE" device="" value="SPH0641LM4H-1"/>
 <part name="C1" library="ambiq" deviceset="0.1UF" device="-0402-TIGHT-16V-10%" value="0.1uF"/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CAMERA-HIMAX" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="DNP"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22030,15 +21883,15 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <wire x1="147.32" y1="139.7" x2="248.92" y2="139.7" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="68.58" x2="248.92" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="109.22" x2="248.92" y2="109.22" width="0.2032" layer="97" style="longdash"/>
-<wire x1="0" y1="147.32" x2="58.42" y2="147.32" width="0.2032" layer="97" style="longdash"/>
-<wire x1="58.42" y1="147.32" x2="147.32" y2="147.32" width="0.2032" layer="97" style="longdash"/>
-<wire x1="58.42" y1="147.32" x2="58.42" y2="185.42" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="147.32" x2="101.6" y2="147.32" width="0.2032" layer="97" style="longdash"/>
+<wire x1="101.6" y1="147.32" x2="147.32" y2="147.32" width="0.2032" layer="97" style="longdash"/>
+<wire x1="101.6" y1="147.32" x2="101.6" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
 <text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
 <text x="15.24" y="149.86" size="1.27" layer="97">Artemis Supply Range: 1.755-3.63V</text>
 <text x="73.66" y="139.7" size="2.54" layer="97" align="center">SparkFun Artemis</text>
 <text x="30.48" y="180.34" size="2.54" layer="97" align="center">Coin Cell/Serial Power</text>
-<text x="99.06" y="180.34" size="2.54" layer="97" align="center">Artemis Decoupling</text>
+<text x="121.92" y="180.34" size="2.54" layer="97" align="center">Artemis Decoupling</text>
 <text x="203.2" y="182.88" size="2.54" layer="97" align="center">LEDs</text>
 <text x="198.12" y="137.16" size="2.54" layer="97" align="center">Programming Headers</text>
 <text x="170.18" y="104.14" size="2.54" layer="97" align="center">Expansion Headers</text>
@@ -22150,8 +22003,8 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <instance part="SUPPLY3" gate="G$1" x="27.94" y="172.72" smashed="yes">
 <attribute name="VALUE" x="27.94" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="VDD" x="38.1" y="172.72" smashed="yes">
-<attribute name="VALUE" x="38.1" y="175.514" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="VDD" x="73.66" y="172.72" smashed="yes">
+<attribute name="VALUE" x="73.66" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J3" gate="G$1" x="172.72" y="86.36" smashed="yes">
 <attribute name="VALUE" x="170.18" y="76.454" size="1.778" layer="96" font="vector"/>
@@ -22207,35 +22060,35 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="NAME" x="198.12" y="129.794" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="198.12" y="114.554" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="109.22" y="165.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="110.744" y="165.481" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="110.744" y="160.401" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="132.08" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="133.604" y="165.481" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="133.604" y="160.401" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND3" gate="1" x="109.22" y="154.94" smashed="yes">
-<attribute name="VALUE" x="106.68" y="152.4" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="132.08" y="154.94" smashed="yes">
+<attribute name="VALUE" x="129.54" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="88.9" y="162.56" smashed="yes">
-<attribute name="NAME" x="90.424" y="165.481" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="90.424" y="160.401" size="1.778" layer="96" font="vector"/>
+<instance part="C4" gate="G$1" x="111.76" y="162.56" smashed="yes">
+<attribute name="NAME" x="113.284" y="165.481" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="113.284" y="160.401" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C11" gate="G$1" x="99.06" y="162.56" smashed="yes">
-<attribute name="NAME" x="100.584" y="165.481" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="100.584" y="160.401" size="1.778" layer="96" font="vector"/>
+<instance part="C11" gate="G$1" x="121.92" y="162.56" smashed="yes">
+<attribute name="NAME" x="123.444" y="165.481" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="123.444" y="160.401" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="99.06" y="154.94" smashed="yes">
-<attribute name="VALUE" x="96.52" y="152.4" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="121.92" y="154.94" smashed="yes">
+<attribute name="VALUE" x="119.38" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="GND43" gate="1" x="88.9" y="154.94" smashed="yes">
-<attribute name="VALUE" x="86.36" y="152.4" size="1.778" layer="96"/>
+<instance part="GND43" gate="1" x="111.76" y="154.94" smashed="yes">
+<attribute name="VALUE" x="109.22" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="VDD" x="88.9" y="170.18" smashed="yes">
-<attribute name="VALUE" x="88.9" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="VDD" x="111.76" y="170.18" smashed="yes">
+<attribute name="VALUE" x="111.76" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="VDD" x="99.06" y="170.18" smashed="yes">
-<attribute name="VALUE" x="99.06" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="VDD" x="121.92" y="170.18" smashed="yes">
+<attribute name="VALUE" x="121.92" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY9" gate="VDD" x="109.22" y="170.18" smashed="yes">
-<attribute name="VALUE" x="109.22" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="VDD" x="132.08" y="170.18" smashed="yes">
+<attribute name="VALUE" x="132.08" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY5" gate="VDD" x="38.1" y="127" smashed="yes">
 <attribute name="VALUE" x="38.1" y="129.794" size="1.778" layer="96" align="bottom-center"/>
@@ -22245,6 +22098,10 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 </instance>
 <instance part="GND7" gate="1" x="20.32" y="78.74" smashed="yes">
 <attribute name="VALUE" x="20.32" y="78.486" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="JP1" gate="JP1" x="66.04" y="170.18" smashed="yes">
+<attribute name="NAME" x="63.5" y="172.72" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="63.5" y="167.64" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -22256,16 +22113,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <wire x1="193.04" y1="127" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="VDD" pin="VDD"/>
 <pinref part="J5" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="35.56" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="157.48" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="170.18" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
-<junction x="38.1" y="170.18"/>
-<pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -22282,23 +22129,29 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
-<wire x1="88.9" y1="170.18" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="170.18" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="VDD" pin="VDD"/>
-<wire x1="109.22" y1="170.18" x2="109.22" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="170.18" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="VDD" pin="VDD"/>
-<wire x1="99.06" y1="170.18" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="170.18" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="VDD*2"/>
 <wire x1="40.64" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="124.46" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
+</segment>
+<segment>
+<wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="170.18" x2="73.66" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
+<pinref part="JP1" gate="JP1" pin="2"/>
 </segment>
 </net>
 <net name="X0" class="0">
@@ -22380,19 +22233,19 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <wire x1="210.82" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="157.48" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="157.48" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="99.06" y1="157.48" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="157.48" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND43" gate="1" pin="GND"/>
-<wire x1="88.9" y1="157.48" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="157.48" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="U1" pin="GND*6"/>
@@ -22861,25 +22714,65 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <pinref part="U5" gate="U1" pin="(SCCRST)~D26"/>
 </segment>
 </net>
+<net name="ACCEL_INT2" class="0">
+<segment>
+<pinref part="U5" gate="U1" pin="(SLMOSI/SLSDA)D1"/>
+<wire x1="109.22" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<label x="111.76" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_INT1" class="0">
+<segment>
+<pinref part="U5" gate="U1" pin="(SLMISO)D2"/>
+<wire x1="109.22" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<label x="111.76" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VIN1" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="157.48" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="157.48" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="38.1" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+<junction x="38.1" y="170.18"/>
+<pinref part="JP1" gate="JP1" pin="1"/>
+</segment>
+</net>
+<net name="VDD_PDM" class="0">
+<segment>
+<pinref part="U5" gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0"/>
+<wire x1="109.22" y1="124.46" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
+<label x="111.76" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VDD_ACCEL" class="0">
+<segment>
+<pinref part="U5" gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41"/>
+<wire x1="109.22" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
+<label x="111.76" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="83.82" width="0.2032" layer="97" style="longdash"/>
-<wire x1="147.32" y1="83.82" x2="147.32" y2="91.44" width="0.2032" layer="97" style="longdash"/>
-<wire x1="147.32" y1="91.44" x2="147.32" y2="127" width="0.2032" layer="97" style="longdash"/>
+<wire x1="147.32" y1="83.82" x2="147.32" y2="101.6" width="0.2032" layer="97" style="longdash"/>
+<wire x1="147.32" y1="101.6" x2="147.32" y2="127" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="127" x2="147.32" y2="185.42" width="0.2032" layer="97" style="longdash"/>
-<wire x1="147.32" y1="91.44" x2="248.92" y2="91.44" width="0.2032" layer="97" style="longdash"/>
+<wire x1="147.32" y1="101.6" x2="248.92" y2="101.6" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="127" x2="0" y2="127" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="83.82" x2="0" y2="83.82" width="0.2032" layer="97" style="longdash"/>
 <text x="73.66" y="121.92" size="2.54" layer="97" align="center">Camera DVDD 1.8V Regulator</text>
 <text x="71.12" y="180.34" size="2.54" layer="97" align="center">LIS2DH12 3-Axis Accelerometer</text>
 <text x="165.1" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
-<text x="45.72" y="165.1" size="1.778" layer="97">I2C Address:
+<text x="48.26" y="162.56" size="1.778" layer="97">I2C Address:
 0x19 (SA0 = 1)</text>
 <text x="53.34" y="5.08" size="1.778" layer="97">I2C Address: 0x21</text>
 <text x="66.04" y="78.74" size="2.54" layer="97" align="center">Camera</text>
-<text x="198.12" y="83.82" size="2.54" layer="97" align="center">MEMS Microphone</text>
+<text x="195.58" y="96.52" size="2.54" layer="97" align="center">MEMS Microphone</text>
 <text x="195.834" y="162.306" size="2.54" layer="97" font="vector" align="center">Bootloader Reset Circuit</text>
 </plain>
 <instances>
@@ -22890,20 +22783,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
-</instance>
-<instance part="R13" gate="G$1" x="88.9" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.376" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90.424" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R15" gate="G$1" x="96.52" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.996" y="66.04" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="98.044" y="66.04" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY25" gate="VDD" x="88.9" y="73.66" smashed="yes">
-<attribute name="VALUE" x="88.9" y="76.454" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY27" gate="VDD" x="96.52" y="73.66" smashed="yes">
-<attribute name="VALUE" x="96.52" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND32" gate="1" x="58.42" y="12.7" smashed="yes">
 <attribute name="VALUE" x="58.42" y="12.446" size="1.778" layer="96" align="top-center"/>
@@ -22960,25 +22839,8 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="NAME" x="24.384" y="147.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="24.384" y="142.621" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R12" gate="G$1" x="76.2" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.676" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="77.724" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R14" gate="G$1" x="83.82" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.296" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="85.344" y="157.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY23" gate="VDD" x="76.2" y="165.1" smashed="yes">
-<attribute name="VALUE" x="76.2" y="167.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY26" gate="VDD" x="83.82" y="165.1" smashed="yes">
-<attribute name="VALUE" x="83.82" y="167.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND31" gate="1" x="40.64" y="132.08" smashed="yes">
 <attribute name="VALUE" x="40.64" y="131.826" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY19" gate="VDD" x="40.64" y="157.48" smashed="yes">
-<attribute name="VALUE" x="40.64" y="160.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND29" gate="1" x="30.48" y="137.16" smashed="yes">
 <attribute name="VALUE" x="30.48" y="136.906" size="1.778" layer="96" align="top-center"/>
@@ -22986,28 +22848,13 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <instance part="GND28" gate="1" x="22.86" y="137.16" smashed="yes">
 <attribute name="VALUE" x="22.86" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY16" gate="VDD" x="22.86" y="152.4" smashed="yes">
-<attribute name="VALUE" x="22.86" y="155.194" size="1.778" layer="96" align="bottom-center"/>
+<instance part="R25" gate="G$1" x="93.98" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="95.504" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="92.456" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="SUPPLY17" gate="VDD" x="30.48" y="152.4" smashed="yes">
-<attribute name="VALUE" x="30.48" y="155.194" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY22" gate="VDD" x="71.12" y="165.1" smashed="yes">
-<attribute name="VALUE" x="71.12" y="167.894" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R25" gate="G$1" x="109.22" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.744" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="107.696" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
-<instance part="R26" gate="G$1" x="116.84" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="118.364" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="115.316" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
-<instance part="SUPPLY38" gate="VDD" x="116.84" y="154.94" smashed="yes">
-<attribute name="VALUE" x="116.84" y="157.734" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY39" gate="VDD" x="109.22" y="154.94" smashed="yes">
-<attribute name="VALUE" x="109.22" y="157.734" size="1.778" layer="96" align="bottom-center"/>
+<instance part="R26" gate="G$1" x="101.6" y="147.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="103.124" y="147.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="100.076" y="147.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="TP7" gate="G$1" x="101.6" y="111.76" smashed="yes">
 <attribute name="NAME" x="101.6" y="113.03" size="1.778" layer="95" font="vector"/>
@@ -23053,12 +22900,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="NAME" x="153.924" y="61.341" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="153.924" y="56.261" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY29" gate="VDD" x="165.1" y="71.12" smashed="yes">
-<attribute name="VALUE" x="165.1" y="73.914" size="1.778" layer="97" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY30" gate="VDD" x="152.4" y="66.04" smashed="yes">
-<attribute name="VALUE" x="152.4" y="68.834" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND21" gate="1" x="152.4" y="50.8" smashed="yes">
 <attribute name="VALUE" x="152.4" y="50.546" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -23076,20 +22917,11 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="NAME" x="202.184" y="61.341" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="202.184" y="56.261" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY2" gate="VDD" x="213.36" y="71.12" smashed="yes">
-<attribute name="VALUE" x="213.36" y="73.914" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY10" gate="VDD" x="200.66" y="66.04" smashed="yes">
-<attribute name="VALUE" x="200.66" y="68.834" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND2" gate="1" x="200.66" y="50.8" smashed="yes">
 <attribute name="VALUE" x="200.66" y="50.546" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND8" gate="1" x="213.36" y="48.26" smashed="yes">
 <attribute name="VALUE" x="213.36" y="48.006" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY11" gate="VDD" x="233.68" y="66.04" smashed="yes">
-<attribute name="VALUE" x="233.68" y="68.834" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY12" gate="VDD" x="218.44" y="152.4" smashed="yes">
 <attribute name="VALUE" x="218.44" y="155.194" size="1.778" layer="96" align="bottom-center"/>
@@ -23206,16 +23038,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="SUPPLY25" gate="VDD" pin="VDD"/>
-<wire x1="88.9" y1="71.12" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="SUPPLY27" gate="VDD" pin="VDD"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY21" gate="VDD" pin="VDD"/>
 <wire x1="60.96" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="58.42" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
@@ -23231,82 +23053,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <junction x="60.96" y="111.76"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="SUPPLY23" gate="VDD" pin="VDD"/>
-<wire x1="76.2" y1="165.1" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<pinref part="SUPPLY26" gate="VDD" pin="VDD"/>
-<wire x1="83.82" y1="165.1" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VDD_IO"/>
-<pinref part="SUPPLY19" gate="VDD" pin="VDD"/>
-<wire x1="43.18" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="154.94" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VDD"/>
-<wire x1="43.18" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="152.4" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
-<junction x="40.64" y="154.94"/>
-</segment>
-<segment>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="149.86" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY16" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="149.86" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="CS"/>
-<wire x1="68.58" y1="154.94" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="154.94" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY22" gate="VDD" pin="VDD"/>
-<pinref part="U2" gate="G$1" pin="SDO/SA0"/>
-<wire x1="68.58" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="152.4" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
-<junction x="71.12" y="154.94"/>
-</segment>
-<segment>
-<pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="SUPPLY38" gate="VDD" pin="VDD"/>
-<wire x1="116.84" y1="154.94" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="SUPPLY39" gate="VDD" pin="VDD"/>
-<wire x1="109.22" y1="154.94" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="E1" gate="E1" pin="VDD"/>
-<wire x1="165.1" y1="68.58" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SUPPLY29" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="SUPPLY30" gate="VDD" pin="VDD"/>
-<wire x1="152.4" y1="66.04" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="E2" gate="E1" pin="VDD"/>
-<wire x1="213.36" y1="68.58" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY10" gate="VDD" pin="VDD"/>
-<wire x1="200.66" y1="66.04" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="E2" gate="E1" pin="SEL"/>
-<wire x1="231.14" y1="58.42" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="58.42" x2="233.68" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="VDD" pin="VDD"/>
-</segment>
-<segment>
 <wire x1="218.44" y1="152.4" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="SUPPLY12" gate="VDD" pin="VDD"/>
@@ -23314,23 +23060,15 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 </net>
 <net name="CAMERA_I2C_SCL" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="58.42" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
-<junction x="88.9" y="58.42"/>
-<label x="99.06" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="88.9" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="CAMERA_I2C_SDA" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="55.88" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
-<junction x="96.52" y="55.88"/>
-<label x="99.06" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="86.36" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<label x="88.9" y="55.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="SDA"/>
 </segment>
 </net>
@@ -23433,34 +23171,26 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <net name="ACCEL_I2C_SCL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCL/SPC"/>
-<wire x1="68.58" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<label x="86.36" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="149.86"/>
+<label x="71.12" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ACCEL_I2C_SDA" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SDA/SDI/SDO"/>
-<wire x1="68.58" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
-<label x="86.36" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="152.4" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
-<junction x="83.82" y="147.32"/>
+<wire x1="68.58" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="71.12" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ACCEL_INT1" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="INT1"/>
-<wire x1="68.58" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<label x="119.38" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<label x="104.14" y="137.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<junction x="116.84" y="137.16"/>
+<wire x1="101.6" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="142.24" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<junction x="101.6" y="137.16"/>
 </segment>
 </net>
 <net name="CAMERA_TRIG" class="0">
@@ -23498,12 +23228,12 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <net name="ACCEL_INT2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="INT2"/>
-<wire x1="68.58" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
-<label x="119.38" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="139.7" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="104.14" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="142.24" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
-<junction x="109.22" y="139.7"/>
+<wire x1="93.98" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="142.24" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
+<junction x="93.98" y="139.7"/>
 </segment>
 </net>
 <net name="AMBIQ_!RST" class="0">
@@ -23572,6 +23302,69 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <pinref part="E2" gate="E1" pin="CLK"/>
 <wire x1="231.14" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
 <label x="236.22" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VDD_ACCEL" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CS"/>
+<wire x1="68.58" y1="154.94" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SDO/SA0"/>
+<wire x1="68.58" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="152.4" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
+<junction x="71.12" y="154.94"/>
+<wire x1="71.12" y1="154.94" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VDD_IO"/>
+<wire x1="43.18" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VDD"/>
+<wire x1="43.18" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="152.4" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<junction x="40.64" y="154.94"/>
+<wire x1="40.64" y1="160.02" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="162.56" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<junction x="40.64" y="160.02"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="149.86" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="149.86" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+<junction x="30.48" y="160.02"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="160.02" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+<junction x="71.12" y="160.02"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="160.02" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="160.02" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
+<junction x="93.98" y="160.02"/>
+<label x="40.64" y="162.56" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="VDD_PDM" class="0">
+<segment>
+<wire x1="187.96" y1="73.66" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="E2" gate="E1" pin="VDD"/>
+<wire x1="187.96" y1="71.12" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="71.12" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="E1" gate="E1" pin="VDD"/>
+<wire x1="187.96" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="71.12" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<junction x="187.96" y="71.12"/>
+<wire x1="213.36" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
+<junction x="213.36" y="71.12"/>
+<pinref part="E2" gate="E1" pin="SEL"/>
+<wire x1="231.14" y1="58.42" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="71.12" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="63.5" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
+<junction x="200.66" y="71.12"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="63.5" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="165.1" y="71.12"/>
+<label x="187.96" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
