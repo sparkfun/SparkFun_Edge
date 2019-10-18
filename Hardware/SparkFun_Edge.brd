@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1553,26 +1553,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="21"/>
 <text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="ambiq">
-<packages>
-<package name="0402-TIGHT">
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
-<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
-<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 </packages>
 </library>
@@ -6599,12 +6579,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="XTAL-13062" x="25" y="17" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="26.0134" y="16.9958" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C9" library="ambiq" package="0402-TIGHT" value="15pF" x="23" y="16" smashed="yes" rot="R270">
+<element name="C9" library="SparkFun-Capacitors" package="0402-TIGHT" value="15pF" x="23" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.562" y="16" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13063" x="23" y="16" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.438" y="15.746" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C10" library="ambiq" package="0402-TIGHT" value="15pF" x="23" y="18" smashed="yes" rot="R90">
+<element name="C10" library="SparkFun-Capacitors" package="0402-TIGHT" value="15pF" x="23" y="18" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.438" y="18" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-13063" x="23" y="18" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.4874" y="18.2564" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -6640,7 +6620,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-11015" x="24" y="11" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="24.5902" y="10.9964" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="C20" library="ambiq" package="0402-TIGHT" value="0.1uF" x="22.5" y="11" smashed="yes" rot="R270">
+<element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="22.5" y="11" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.062" y="11" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="22.5" y="11" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.1158" y="11" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -6660,15 +6640,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="VREG-14239" x="19" y="29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="18.408" y="28.734" size="0.4064" layer="27"/>
 </element>
-<element name="C22" library="ambiq" package="0402-TIGHT" value="1.0uF" x="21" y="29" smashed="yes" rot="R270">
+<element name="C22" library="SparkFun-Capacitors" package="0402-TIGHT" value="1.0uF" x="21" y="29" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.562" y="29" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12417" x="21" y="29" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.575" y="30.147" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C23" library="ambiq" package="0402-TIGHT" value="1.0uF" x="19" y="31.5" smashed="yes">
+<element name="C23" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="19" y="31.5" smashed="yes">
 <attribute name="NAME" x="19" y="32.062" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12417" x="19" y="31.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="19" y="30.938" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="19" y="31.5" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="19" y="30.938" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="D4" library="SparkFun-LED" package="LED-0603" value="BLUE" x="17" y="4" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.635" y="4" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -6804,7 +6784,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="CAP-07886" x="14.81" y="39.05" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="11" y="20.762" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C18" library="ambiq" package="0402-TIGHT" value="0.1uF" x="5.5" y="30" smashed="yes" rot="R90">
+<element name="C18" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="5.5" y="30" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.938" y="30" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="5.5" y="30" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.062" y="30" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
@@ -6833,7 +6813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="IC-14361" x="10" y="14" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.1" y="11.6" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C1" library="ambiq" package="0402-TIGHT" value="0.1uF" x="5.5" y="10" smashed="yes" rot="R90">
+<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="5.5" y="10" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.938" y="10" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="-0.5" y="6" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="6.062" y="10" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
