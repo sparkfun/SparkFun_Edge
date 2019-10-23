@@ -24109,7 +24109,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="99.06" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO12/NOT_SURE_WHAT_THIS_DOES" class="0">
+<net name="GPIO12/CAMERA_TRIG" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO12"/>
 <wire x1="96.52" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
@@ -24385,7 +24385,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="99.06" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO4/CAMERA_WHAT_DOES_THIS_ONE_DO?" class="0">
+<net name="GPIO4/CAMERA_INT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO4"/>
 <wire x1="96.52" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
@@ -25027,7 +25027,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="78.74" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO4/CAMERA_WHAT_DOES_THIS_ONE_DO?" class="0">
+<net name="GPIO4/CAMERA_INT" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="Y4"/>
 <wire x1="76.2" y1="22.86" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
@@ -25055,7 +25055,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="78.74" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO12/NOT_SURE_WHAT_THIS_DOES" class="0">
+<net name="GPIO12/CAMERA_TRIG" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="VSYNC"/>
 <wire x1="76.2" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>

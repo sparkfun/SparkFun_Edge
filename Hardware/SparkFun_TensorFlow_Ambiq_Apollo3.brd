@@ -52,8 +52,8 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="22" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="22" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -7448,7 +7448,7 @@ design rules under a new name.</description>
 <wire x1="12.446" y1="28.8036" x2="10.7442" y2="28.8036" width="0.127" layer="1"/>
 <wire x1="10.7442" y1="28.8036" x2="9.9478" y2="29.6" width="0.127" layer="1"/>
 </signal>
-<signal name="GPIO12/NOT_SURE_WHAT_THIS_DOES">
+<signal name="GPIO12/CAMERA_TRIG">
 <contactref element="U1" pad="A7"/>
 <contactref element="J6" pad="7"/>
 <wire x1="17.25" y1="33.05" x2="17.25" y2="34.6" width="0.127" layer="1"/>
@@ -7543,7 +7543,7 @@ design rules under a new name.</description>
 <wire x1="21.75" y1="27.8096125" x2="21.75" y2="34.6" width="0.127" layer="1"/>
 <wire x1="24.5332" y1="25.0264125" x2="21.75" y2="27.8096125" width="0.127" layer="1"/>
 </signal>
-<signal name="GPIO4/CAMERA_WHAT_DOES_THIS_ONE_DO?">
+<signal name="GPIO4/CAMERA_INT">
 <contactref element="J6" pad="18"/>
 <contactref element="U1" pad="D9"/>
 <wire x1="22.67" y1="34.52" x2="22.75" y2="34.6" width="0.127" layer="1"/>
