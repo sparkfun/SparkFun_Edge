@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22048,28 +22048,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U5" gate="U1" pin="~AD32(SCCIO)"/>
 </segment>
 </net>
-<net name="CAMERA_VSYNC" class="0">
+<net name="GPIO15/CAMERA_VSYNC" class="0">
 <segment>
 <wire x1="109.22" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <label x="111.76" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15"/>
 </segment>
 </net>
-<net name="CAMERA_INT" class="0">
+<net name="GPIO23/CAMERA_INT" class="0">
 <segment>
 <wire x1="109.22" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
 <label x="111.76" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
 </segment>
 </net>
-<net name="CAMERA_I2C_SDA" class="0">
-<segment>
-<wire x1="109.22" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-<label x="111.76" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="U5" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
-</segment>
-</net>
-<net name="CAMERA_I2C_SCL" class="0">
+<net name="GPIO8/CAMERA_I2C_SCL" class="0">
 <segment>
 <wire x1="109.22" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
 <label x="111.76" y="104.14" size="1.27" layer="95" xref="yes"/>
@@ -22222,77 +22215,77 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="38.1" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAMERA_TRIG" class="0">
+<net name="GPIO13/CAMERA_TRIG" class="0">
 <segment>
 <wire x1="40.64" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="38.1" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U5" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
 </segment>
 </net>
-<net name="CAMERA_HSYNC" class="0">
+<net name="GPIO27/CAMERA_HSYNC" class="0">
 <segment>
 <wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <label x="111.76" y="71.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(SCL2/SCK2)~D27"/>
 </segment>
 </net>
-<net name="CAMERA_D7" class="0">
+<net name="GPIO28/CAMERA_D7" class="0">
 <segment>
 <wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <label x="111.76" y="68.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
 </segment>
 </net>
-<net name="CAMERA_D6" class="0">
+<net name="GPIO35/CAMERA_D6" class="0">
 <segment>
 <wire x1="40.64" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <label x="38.1" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U5" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
 </segment>
 </net>
-<net name="CAMERA_D5" class="0">
+<net name="GPIO5/CAMERA_D5" class="0">
 <segment>
 <wire x1="109.22" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <label x="111.76" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(SCL0/SCK0)~D5"/>
 </segment>
 </net>
-<net name="CAMERA_PCLK" class="0">
+<net name="GPIO7/CAMERA_PCLK" class="0">
 <segment>
 <wire x1="109.22" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
 <label x="111.76" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
 </segment>
 </net>
-<net name="CAMERA_D4" class="0">
+<net name="GPIO6/CAMERA_D4" class="0">
 <segment>
 <wire x1="109.22" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 <label x="111.76" y="109.22" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
 </segment>
 </net>
-<net name="CAMERA_D0" class="0">
+<net name="GPIO14/CAMERA_D0" class="0">
 <segment>
 <wire x1="109.22" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <label x="111.76" y="96.52" size="1.27" layer="95" xref="yes"/>
 <pinref part="U5" gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14"/>
 </segment>
 </net>
-<net name="CAMERA_D3" class="0">
+<net name="GPIO34/CAMERA_D3" class="0">
 <segment>
 <wire x1="40.64" y1="58.42" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
 <label x="38.1" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U5" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
 </segment>
 </net>
-<net name="CAMERA_D1" class="0">
+<net name="GPIO11/CAMERA_D1" class="0">
 <segment>
 <wire x1="40.64" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <label x="38.1" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U5" gate="U1" pin="~AD11(PDMDATA)"/>
 </segment>
 </net>
-<net name="CAMERA_D2" class="0">
+<net name="GPIO25/CAMERA_D2" class="0">
 <segment>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <label x="111.76" y="76.2" size="1.27" layer="95" xref="yes"/>
@@ -22399,7 +22392,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="185.42" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CAMERA_MCLK" class="0">
+<net name="GPIO26/CAMERA_MCLK" class="0">
 <segment>
 <wire x1="109.22" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <label x="111.76" y="73.66" size="1.27" layer="95" xref="yes"/>
@@ -22444,6 +22437,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U5" gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41"/>
 <wire x1="109.22" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <label x="111.76" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GPIO9/CAMERA_I2C_SDA" class="0">
+<segment>
+<wire x1="109.22" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<label x="111.76" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
 </segment>
 </net>
 </nets>
@@ -22750,70 +22750,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY12" gate="VDD" pin="VDD"/>
 </segment>
 </net>
-<net name="CAMERA_I2C_SCL" class="0">
+<net name="GPIO8/CAMERA_I2C_SCL" class="0">
 <segment>
 <wire x1="86.36" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <label x="88.9" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="SCL"/>
 </segment>
 </net>
-<net name="CAMERA_I2C_SDA" class="0">
+<net name="GPIO9/CAMERA_I2C_SDA" class="0">
 <segment>
 <wire x1="86.36" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <label x="88.9" y="55.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="CAMERA_D1" class="0">
+<net name="GPIO11/CAMERA_D1" class="0">
 <segment>
 <wire x1="86.36" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <label x="88.9" y="33.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D1"/>
 </segment>
 </net>
-<net name="CAMERA_D3" class="0">
+<net name="GPIO34/CAMERA_D3" class="0">
 <segment>
 <wire x1="86.36" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <label x="88.9" y="27.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D3"/>
 </segment>
 </net>
-<net name="CAMERA_D4" class="0">
+<net name="GPIO6/CAMERA_D4" class="0">
 <segment>
 <wire x1="86.36" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <label x="88.9" y="25.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D4"/>
 </segment>
 </net>
-<net name="CAMERA_D5" class="0">
+<net name="GPIO5/CAMERA_D5" class="0">
 <segment>
 <wire x1="86.36" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <label x="88.9" y="22.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D5"/>
 </segment>
 </net>
-<net name="CAMERA_D6" class="0">
+<net name="GPIO35/CAMERA_D6" class="0">
 <segment>
 <wire x1="86.36" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
 <label x="88.9" y="20.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D6"/>
 </segment>
 </net>
-<net name="CAMERA_D7" class="0">
+<net name="GPIO28/CAMERA_D7" class="0">
 <segment>
 <wire x1="86.36" y1="17.78" x2="88.9" y2="17.78" width="0.1524" layer="91"/>
 <label x="88.9" y="17.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D7"/>
 </segment>
 </net>
-<net name="CAMERA_VSYNC" class="0">
+<net name="GPIO15/CAMERA_VSYNC" class="0">
 <segment>
 <wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <label x="88.9" y="50.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="FVLD"/>
 </segment>
 </net>
-<net name="CAMERA_HSYNC" class="0">
+<net name="GPIO27/CAMERA_HSYNC" class="0">
 <segment>
 <wire x1="86.36" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <label x="88.9" y="48.26" size="1.27" layer="95" xref="yes"/>
@@ -22839,21 +22839,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="99.06" y1="114.3" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAMERA_PCLK" class="0">
+<net name="GPIO7/CAMERA_PCLK" class="0">
 <segment>
 <wire x1="86.36" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <label x="88.9" y="40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="PCLK"/>
 </segment>
 </net>
-<net name="CAMERA_D0" class="0">
+<net name="GPIO14/CAMERA_D0" class="0">
 <segment>
 <wire x1="86.36" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <label x="88.9" y="35.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="D0"/>
 </segment>
 </net>
-<net name="CAMERA_D2" class="0">
+<net name="GPIO25/CAMERA_D2" class="0">
 <segment>
 <wire x1="86.36" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <label x="88.9" y="30.48" size="1.27" layer="95" xref="yes"/>
@@ -22885,14 +22885,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="101.6" y="137.16"/>
 </segment>
 </net>
-<net name="CAMERA_TRIG" class="0">
+<net name="GPIO13/CAMERA_TRIG" class="0">
 <segment>
 <wire x1="60.96" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <label x="58.42" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="TRIG"/>
 </segment>
 </net>
-<net name="CAMERA_INT" class="0">
+<net name="GPIO23/CAMERA_INT" class="0">
 <segment>
 <wire x1="60.96" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="58.42" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -22910,7 +22910,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="68.58" y="106.68"/>
 </segment>
 </net>
-<net name="CAMERA_MCLK" class="0">
+<net name="GPIO26/CAMERA_MCLK" class="0">
 <segment>
 <wire x1="86.36" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <label x="88.9" y="43.18" size="1.27" layer="95" xref="yes"/>

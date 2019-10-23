@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7259,7 +7259,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="5.4" y="28.7" extent="1-16" drill="0.3048"/>
 <wire x1="6.5" y1="23.81" x2="4.79" y2="23.81" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D3">
+<signal name="GPIO34/CAMERA_D3">
 <contactref element="J7" pad="5"/>
 <wire x1="26.86865625" y1="20.3092" x2="25.35974375" y2="20.3092" width="0.1524" layer="1"/>
 <wire x1="25.35974375" y1="20.3092" x2="24.38814375" y2="21.2808" width="0.1524" layer="1"/>
@@ -7272,7 +7272,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="28.5" y1="19.5" x2="27.67785625" y2="19.5" width="0.1524" layer="1"/>
 <wire x1="27.67785625" y1="19.5" x2="26.86865625" y2="20.3092" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D1">
+<signal name="GPIO11/CAMERA_D1">
 <contactref element="J7" pad="3"/>
 <wire x1="15.25" y1="33.3" x2="15.25" y2="34.6" width="0.1524" layer="1"/>
 <wire x1="24.2618875" y1="20.976" x2="19.96871875" y2="20.976" width="0.1524" layer="1"/>
@@ -7285,7 +7285,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="26.474" y1="19.881" x2="25.3568875" y2="19.881" width="0.1524" layer="1"/>
 <wire x1="27.355" y1="19" x2="26.474" y2="19.881" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D2">
+<signal name="GPIO25/CAMERA_D2">
 <contactref element="J7" pad="9"/>
 <contactref element="U5" pad="~D25"/>
 <wire x1="28.5" y1="22.5" x2="20.6" y2="22.5" width="0.1524" layer="1"/>
@@ -7294,7 +7294,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="18.25" y1="32.75" x2="18.25" y2="34.6" width="0.1524" layer="1"/>
 <wire x1="17.5" y1="32" x2="18.25" y2="32.75" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_VSYNC">
+<signal name="GPIO15/CAMERA_VSYNC">
 <contactref element="J7" pad="6"/>
 <wire x1="25.486" y1="20.614" x2="24.5144" y2="21.5856" width="0.1524" layer="1"/>
 <wire x1="20.22123125" y1="21.5856" x2="16.5856" y2="25.22123125" width="0.1524" layer="1"/>
@@ -7307,7 +7307,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.1089125" y1="20.5" x2="26.9949125" y2="20.614" width="0.1524" layer="1"/>
 <wire x1="26.9949125" y1="20.614" x2="25.486" y2="20.614" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_INT">
+<signal name="GPIO23/CAMERA_INT">
 <contactref element="J7" pad="18"/>
 <wire x1="22.76894375" y1="33.57894375" x2="22.75" y2="33.5978875" width="0.1524" layer="1"/>
 <wire x1="22.75" y1="33.5978875" x2="22.75" y2="34.6" width="0.1524" layer="1"/>
@@ -7339,7 +7339,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="33.91503125" y1="13.6604" x2="34.447815625" y2="14.193184375" width="0.1524" layer="16"/>
 <wire x1="23.0426" y1="13.6604" x2="33.91503125" y2="13.6604" width="0.1524" layer="16"/>
 </signal>
-<signal name="CAMERA_D4">
+<signal name="GPIO6/CAMERA_D4">
 <contactref element="J7" pad="12"/>
 <contactref element="U5" pad="~D6"/>
 <wire x1="26.06894375" y1="23.5" x2="21.5286" y2="28.04034375" width="0.1524" layer="1"/>
@@ -7348,20 +7348,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="21.5286" y1="28.04034375" x2="21.5286" y2="31.3092875" width="0.1524" layer="1"/>
 <wire x1="21.5286" y1="31.3092875" x2="19.75" y2="33.0878875" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_I2C_SDA">
-<contactref element="J7" pad="22"/>
-<contactref element="U5" pad="D9"/>
-<wire x1="37" y1="24.96894375" x2="37" y2="23.7" width="0.1524" layer="1"/>
-<wire x1="24.75" y1="34.6" x2="24.75" y2="33.704" width="0.1524" layer="1"/>
-<wire x1="24.75" y1="33.704" x2="28.429" y2="30.025" width="0.1524" layer="1"/>
-<wire x1="34.2303125" y1="26.9714" x2="34.99754375" y2="26.9714" width="0.1524" layer="1"/>
-<wire x1="33.2017125" y1="28" x2="34.2303125" y2="26.9714" width="0.1524" layer="1"/>
-<wire x1="34.99754375" y1="26.9714" x2="37" y2="24.96894375" width="0.1524" layer="1"/>
-<wire x1="30.9946" y1="28" x2="33.2017125" y2="28" width="0.1524" layer="1"/>
-<wire x1="28.9696" y1="30.025" x2="28.429" y2="30.025" width="0.1524" layer="1"/>
-<wire x1="30.9946" y1="28" x2="28.9696" y2="30.025" width="0.1524" layer="1"/>
-</signal>
-<signal name="CAMERA_I2C_SCL">
+<signal name="GPIO8/CAMERA_I2C_SCL">
 <contactref element="J7" pad="21"/>
 <contactref element="U5" pad="D8"/>
 <wire x1="34.5" y1="24.5" x2="34.5" y2="25.96894375" width="0.1524" layer="1"/>
@@ -7547,7 +7534,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="R8" pad="1"/>
 <wire x1="19" y1="6.15" x2="19" y2="4.877" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D0">
+<signal name="GPIO14/CAMERA_D0">
 <contactref element="J7" pad="14"/>
 <wire x1="20.75" y1="34.6" x2="20.75" y2="32.95" width="0.1524" layer="1"/>
 <wire x1="20.75" y1="32.95" x2="22.1404" y2="31.5596" width="0.1524" layer="1"/>
@@ -7558,7 +7545,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="30" y1="23.7" x2="30" y2="24.93105625" width="0.1524" layer="1"/>
 <wire x1="30" y1="24.93105625" x2="29.42625625" y2="25.5048" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_TRIG">
+<signal name="GPIO13/CAMERA_TRIG">
 <contactref element="J7" pad="7"/>
 <wire x1="17.25" y1="34.6" x2="17.25" y2="32.6121125" width="0.1524" layer="1"/>
 <wire x1="17.25" y1="32.6121125" x2="16.8904" y2="32.2525125" width="0.1524" layer="1"/>
@@ -7712,7 +7699,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25" y1="15.75" x2="24.75" y2="15.5" width="0.1524" layer="1"/>
 <wire x1="24.75" y1="15.5" x2="23" y2="15.5" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_HSYNC">
+<signal name="GPIO27/CAMERA_HSYNC">
 <contactref element="J7" pad="16"/>
 <wire x1="21.75" y1="34.6" x2="21.75" y2="33.08774375" width="0.1524" layer="1"/>
 <wire x1="21.75" y1="33.08774375" x2="21.6832" y2="33.02094375" width="0.1524" layer="1"/>
@@ -7725,7 +7712,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="29.5525125" y1="25.8096" x2="25.0525125" y2="25.8096" width="0.1524" layer="1"/>
 <wire x1="25.0525125" y1="25.8096" x2="22.4452" y2="28.4169125" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D7">
+<signal name="GPIO28/CAMERA_D7">
 <contactref element="J7" pad="13"/>
 <wire x1="21.8356" y1="28.1644" x2="21.8356" y2="31.43334375" width="0.1524" layer="1"/>
 <wire x1="20.25" y1="33.01894375" x2="20.25" y2="34.6" width="0.1524" layer="1"/>
@@ -7736,7 +7723,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="29.3" y1="25.2" x2="24.8" y2="25.2" width="0.1524" layer="1"/>
 <wire x1="24.8" y1="25.2" x2="21.8356" y2="28.1644" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_MCLK">
+<signal name="GPIO26/CAMERA_MCLK">
 <contactref element="J7" pad="8"/>
 <contactref element="U5" pad="~D26"/>
 <wire x1="28.5" y1="21.5" x2="27.19734375" y2="21.5" width="0.1524" layer="1"/>
@@ -7749,7 +7736,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.1952" y1="25.47374375" x2="17.1952" y2="32.12625625" width="0.1524" layer="1"/>
 <wire x1="17.1952" y1="32.12625625" x2="17.75" y2="32.68105625" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D6">
+<signal name="GPIO35/CAMERA_D6">
 <contactref element="J7" pad="19"/>
 <contactref element="U5" pad="~AD35"/>
 <wire x1="33" y1="23.7" x2="33" y2="26.048775" width="0.1524" layer="1"/>
@@ -7758,7 +7745,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="29.688128125" y1="26.681671875" x2="23.25" y2="33.1198" width="0.1524" layer="1"/>
 <wire x1="23.25" y1="33.1198" x2="23.25" y2="34.6" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_D5">
+<signal name="GPIO5/CAMERA_D5">
 <contactref element="J7" pad="20"/>
 <contactref element="U5" pad="~D5"/>
 <wire x1="23.75" y1="34.6" x2="23.75" y2="33.333" width="0.1524" layer="1"/>
@@ -7769,7 +7756,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="30.7420875" y1="27.3904" x2="32.6474875" y2="27.3904" width="0.1524" layer="1"/>
 <wire x1="32.6474875" y1="27.3904" x2="34" y2="26.0378875" width="0.1524" layer="1"/>
 </signal>
-<signal name="CAMERA_PCLK">
+<signal name="GPIO7/CAMERA_PCLK">
 <contactref element="J7" pad="17"/>
 <contactref element="U5" pad="D7"/>
 <wire x1="33.5" y1="24.5" x2="33.5" y2="26.10683125" width="0.1524" layer="1"/>
@@ -7970,6 +7957,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.15" y1="16.5" x2="12.15" y2="10.372" width="0.3048" layer="1"/>
 <wire x1="12.15" y1="10.372" x2="10.16" y2="8.382" width="0.3048" layer="1"/>
 <wire x1="10.16" y1="8.382" x2="10.16" y2="3.048" width="0.3048" layer="1"/>
+</signal>
+<signal name="GPIO9/CAMERA_I2C_SDA">
+<contactref element="U5" pad="D9"/>
+<contactref element="J7" pad="22"/>
+<wire x1="24.75" y1="34.6" x2="24.75" y2="33.704" width="0.1524" layer="1"/>
+<wire x1="24.75" y1="33.704" x2="28.429" y2="30.025" width="0.1524" layer="1"/>
+<wire x1="34.2303125" y1="26.9714" x2="34.99754375" y2="26.9714" width="0.1524" layer="1"/>
+<wire x1="33.2017125" y1="28" x2="34.2303125" y2="26.9714" width="0.1524" layer="1"/>
+<wire x1="34.99754375" y1="26.9714" x2="37" y2="24.96894375" width="0.1524" layer="1"/>
+<wire x1="30.9946" y1="28" x2="33.2017125" y2="28" width="0.1524" layer="1"/>
+<wire x1="28.9696" y1="30.025" x2="28.429" y2="30.025" width="0.1524" layer="1"/>
+<wire x1="30.9946" y1="28" x2="28.9696" y2="30.025" width="0.1524" layer="1"/>
+<wire x1="37" y1="24.96894375" x2="37" y2="23.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
